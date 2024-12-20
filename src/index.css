@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Söhne Schmal';
+    src: url('../public/assets/fonts/TestSöhneSchmal-Fett.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('../public/assets/fonts/MaisonNeue-Light.otf') format('truetype');
+}
+.sohne {
+    font-family: 'Söhne Schmal', sans-serif;
+}
+body {
+    font-family: 'Maison Neue', sans-serif;
+}
