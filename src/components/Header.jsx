@@ -36,7 +36,7 @@ const Header = () => {
                     </button>
                     <div
                         className={`${isMenuOpen ? "block" : "hidden"
-                            } absolute top-0 left-0 w-full bg-white shadow-lg lg:flex  max-lg:fixed lg:static lg:w-auto  items-center max-lg:min-h-screen overflow-hidden z-10`}
+                            } absolute top-0 left-0 w-full bg-white shadow-lg lg:flex  max-lg:fixed lg:static lg:w-auto  items-center max-lg:min-h-screen  z-10`}
                     >
                         <div className="flex !pl-[41px] flex-col lg:flex-row gap-[42px] py-6 md:py-0 md:pl-0 items-center max-lg:justify-center max-lg:min-h-screen">
                             {[
