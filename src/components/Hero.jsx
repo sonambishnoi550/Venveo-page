@@ -10,7 +10,7 @@ const Hero = () => {
                     <span className='lg:block'></span>     a growth machine</h1>
                 <img className='ml-[273px] max-xl:ml-[200px] max-sm:ml-10' src="./assets/svg/green-line.svg" alt="line" />
                 <p className='pt-3 max-md:pt-1 text-white  max-w-[656px] mx-auto text-center max-sm:text-custom-2xl text-2xl leading-custom-lg'>We focus on results. Not just chatter. Elevate your business with our top-tier services and tech. Get a proposal now.</p>
-                <form action="" className="border-2 border-white mt-7 rounded-[50px] text-center py-4 sm:py-5 px-7 flex max-w-[448px] sm:mx-auto mx-5 justify-between">
+                <form action="" className="border-2 border-white mt-7 text-white rounded-[50px] text-center py-4 sm:py-5 px-7 flex max-w-[448px] sm:mx-auto mx-5 justify-between">
                     <input
                         id="email"
                         type="text"

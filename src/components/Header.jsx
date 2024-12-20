@@ -10,13 +10,13 @@ const Header = () => {
 
     return (
         <header>
-            <nav className="h-[80px] 2xl:container">
+            <nav className="h-[80px] max-w-[1440px] mx-auto">
                 <div className="flex justify-between items-center max-lg:px-4 md:pl-14 lg:-mt-5">
-                    <img
+                    <a href="/"><img
                         src="./assets/png/header-logo.png"
                         alt="venveo-logo-img"
                         className="w-[59px] max-sm:w-[42px] md:h-[90px] mt-7"
-                    />
+                    /></a>  
                     <button
                         className="flex flex-col gap-2 cursor-pointer lg:hidden relative z-20"
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -35,31 +35,31 @@ const Header = () => {
                         className={`${isMenuOpen ? "block" : "hidden"
                             } absolute top-0 left-0 w-full bg-white max-lg:bg-sky-300 shadow-lg lg:flex  max-lg:fixed lg:static lg:w-auto  items-center max-lg:min-h-screen  z-10`}
                     >
-                        <div className="flex !pl-[41px] flex-col lg:flex-row gap-[42px] py-6 md:py-0 md:pl-0 items-center max-lg:justify-center max-lg:min-h-screen">
+                        <div className="flex !pl-[41px] flex-col !text-base lg:flex-row gap-[42px] py-6 md:py-0 md:pl-0 items-center max-lg:justify-center max-lg:min-h-screen">
                             {[
                                 {
                                     title: "How We Help",
                                     links: [
-                                        "Drive More Awareness",
-                                        "Get More Customers",
-                                        "Build Your Brand",
+                                        "Drive ",
+                                        "Customers",
+                                        " Brand",
                                     ],
                                 },
                                 {
                                     title: "Who We Help",
                                     links: [
                                         "B2B",
-                                        "Dealers & Distributors",
-                                        "Manufacturing & Industrial",
+                                        "Dealers ",
+                                        "Manufacturing",
                                     ],
                                 },
                                 {
                                     title: "Why Venveo",
-                                    links: ["Who We Are", "Results", "Our Approach"],
+                                    links: ["Who", "Results", "Approach"],
                                 },
                                 {
                                     title: "Resources",
-                                    links: ["Blog", "Case Studies", "Webinars"],
+                                    links: ["Blog", "Studies", "Webinars"],
                                 },
                             ].map((menu, index) => (
                                 <div key={index} className="relative dropdown">
@@ -75,7 +75,7 @@ const Header = () => {
                                             <a
                                                 key={idx}
                                                 href="#"
-                                                className="block text-sm text-gray-700 hover:text-yellow-500 mb-2"
+                                                className="block text-base font-bold text-gray-700 hover:text-yellow-500 mb-2"
                                             >
                                                 {item}
                                             </a>
@@ -84,7 +84,7 @@ const Header = () => {
                                 </div>
                             ))}
                             <img src="./assets/svg/search.svg" alt="search" />
-                            <div className=" bg-lightgreen flex py-8 px-[31px] h-[81px]">
+                            <div className=" bg-lightgreen flex py-8 px-[31px] h-[81px] cursor-pointer">
                                 <a
                                     href="#"
                                     className="text-custom-xs font-medium leading-custom-xl flex">
