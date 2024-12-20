@@ -2,10 +2,10 @@ import React, { useState } from "react";
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [openDropdown, setOpenDropdown] = useState(null);
 
-    const toggleDropdown = (event) => {
-        const dropdown = event.currentTarget.nextElementSibling;
-        dropdown.classList.toggle("hidden");
+    const toggleDropdown = (index) => {
+        setOpenDropdown(openDropdown === index ? null : index); // Close if the same dropdown is clicked
     };
 
     return (
@@ -16,7 +16,7 @@ const Header = () => {
                         src="./assets/png/header-logo.png"
                         alt="venveo-logo-img"
                         className="w-[59px] max-sm:w-[42px] md:h-[90px] mt-7"
-                    /></a>  
+                    /></a>
                     <button
                         className="flex flex-col gap-2 cursor-pointer lg:hidden relative z-20"
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -29,7 +29,6 @@ const Header = () => {
                             className={`w-9 h-[2px] bg-white transition-transform ${isMenuOpen ? "-rotate-45 " : ""
                                 }`}
                         ></span>
-                       
                     </button>
                     <div
                         className={`${isMenuOpen ? "block" : "hidden"
@@ -66,11 +65,11 @@ const Header = () => {
                                     <a
                                         href="#"
                                         className="text-custom-xs font-medium hover:text-yellow-500"
-                                        onClick={toggleDropdown}
+                                        onClick={() => toggleDropdown(index)}
                                     >
                                         {menu.title} <span className="text-custom-xxs ">▼</span>
                                     </a>
-                                    <div className="absolute hidden dropdown-content bg-white shadow-lg py-4 px-6 mt-2 z-10">
+                                    <div className={`absolute ${openDropdown === index ? "block" : "hidden"} dropdown-content bg-white shadow-lg py-4 px-6 mt-2 z-10`}>
                                         {menu.links.map((item, idx) => (
                                             <a
                                                 key={idx}
