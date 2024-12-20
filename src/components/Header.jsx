@@ -18,21 +18,18 @@ const Header = () => {
                         className="w-[59px] max-sm:w-[42px] md:h-[90px] mt-7"
                     />
                     <button
-                        className="flex flex-col gap-1 cursor-pointer lg:hidden relative z-20"
+                        className="flex flex-col gap-2 cursor-pointer lg:hidden relative z-20"
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                     >
                         <span
-                            className={`w-9 h-1 bg-red-500 transition-transform ${isMenuOpen ? "rotate-45 translate-y-2" : ""
+                            className={`w-9 h-[2px] bg-white transition-transform ${isMenuOpen ? "rotate-45 translate-y-2" : ""
                                 }`}
                         ></span>
                         <span
-                            className={`w-9 h-1 bg-red-500 transition-opacity ${isMenuOpen ? "opacity-0" : "opacity-100"
+                            className={`w-9 h-[2px] bg-white transition-opacity ${isMenuOpen ? "opacity-0" : "opacity-100"
                                 }`}
                         ></span>
-                        <span
-                            className={`w-9 h-1 bg-red-500 transition-transform ${isMenuOpen ? "-rotate-45 -translate-y-2" : ""
-                                }`}
-                        ></span>
+                       
                     </button>
                     <div
                         className={`${isMenuOpen ? "block" : "hidden"
