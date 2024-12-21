@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { FEATURE_LIST } from './utils/helper';
+import { FEATURE_LIST } from '../utils/helper';
 
 const Feature = () => {
     const sliderRef = useRef(null);
@@ -43,7 +43,7 @@ const Feature = () => {
                             key={index}
                             src={img.src}
                             alt={`featured - logo - ${index}`}
-                    className="h-auto w-32 object-contain inline-block"
+                            className="h-auto w-32 object-contain inline-block"
                         />
                     ))}
                 </div>
@@ -53,7 +53,7 @@ const Feature = () => {
                             key={index}
                             src={img.src}
                             alt={`featured - logo - ${index}`}
-                    className="h-auto w-32 object-contain"
+                            className="h-auto w-32 object-contain"
                         />
                     ))}
                 </div>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { DROPDOWN_LIST } from "./utils/helper";
+import { DROPDOWN_LIST } from "../utils/helper";
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +16,7 @@ const Header = () => {
                     <a href="/"><img
                         src="./assets/images/png/header-logo.png"
                         alt="venveo-logo-img"
-                        className="w-[59px] max-sm:w-[42px] md:h-[90px] mt-12 max-md:mt-8 max-sm:mt-4"
+                        className="w-[59px] max-sm:w-[42px] md:h-[90px] mt-12 max-md:mt-8 max-sm:mt-4 max-xl:mt-8"
                     /></a>
                     <button
                         className="flex flex-col gap-2 cursor-pointer lg:hidden relative z-20"
@@ -33,7 +33,7 @@ const Header = () => {
                     </button>
                     <div
                         className={`${isMenuOpen ? "block" : "hidden"
-                            } absolute top-0 left-0 w-full transition-all duration-500 bg-white max-lg:bg-sky-300 shadow-lg lg:flex lg:-top-full max-lg:fixed lg:static lg:w-auto  items-center max-lg:min-h-screen  z-10`}
+                            } absolute top-0 left-0 w-full transition-all duration-500 bg-white max-lg:bg-green shadow-lg lg:flex lg:-top-full max-lg:fixed lg:static lg:w-auto  items-center max-lg:min-h-screen  z-10`}
                     >
                         <div className="flex !pl-[41px] flex-col !text-base lg:flex-row gap-[42px] py-6 md:py-0 md:pl-0 items-center max-lg:justify-center max-lg:min-h-screen">
                             {DROPDOWN_LIST.map((menu, index) => (
@@ -59,7 +59,7 @@ const Header = () => {
                                 </div>
                             ))}
                             <img className="cursor-pointer" src="./assets/images/svg/search.svg" alt="search" />
-                            <div className=" bg-lightgreen hover:bg-green flex lg:py-8 py-4 px-[31px] lg:h-[81px] ">
+                            <div className=" bg-lightgreen hover:bg-green flex lg:pt-[25px] lg:pb-8 py-4 px-[31px] lg:h-[81px] cursor-pointer ">
                                 <a
                                     href="#"
                                     className="text-custom-xs font-medium leading-custom-xl flex">

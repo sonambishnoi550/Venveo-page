@@ -15,7 +15,7 @@ const Hero = () => {
                         id="email"
                         type="text"
                         placeholder="Enter Your Website"
-                        className="bg-transparent outline-none  placeholder:text-gray-400  text-custom-xs font-normal leading-5"
+                        className="bg-transparent outline-none  placeholder:text-lightgray  text-custom-xs font-normal leading-5"
                         aria-label="Enter your website"
                         required
                     />
