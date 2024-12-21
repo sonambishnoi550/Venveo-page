@@ -1,21 +1,22 @@
 import React, { useState } from "react";
+import { DROPDOWN_LIST } from "./utils/helper";
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [openDropdown, setOpenDropdown] = useState(null);
 
     const toggleDropdown = (index) => {
-        setOpenDropdown(openDropdown === index ? null : index); // Close if the same dropdown is clicked
+        setOpenDropdown(openDropdown === index ? null : index);
     };
 
     return (
         <header>
             <nav className="h-[80px] max-w-[1440px] mx-auto">
-                <div className="flex justify-between items-center max-lg:px-4 md:pl-14 lg:-mt-5">
+                <div className="flex justify-between items-center max-lg:px-4 md:pl-14 lg:-mt-7">
                     <a href="/"><img
                         src="./assets/png/header-logo.png"
                         alt="venveo-logo-img"
-                        className="w-[59px] max-sm:w-[42px] md:h-[90px] mt-7"
+                        className="w-[59px] max-sm:w-[42px] md:h-[90px] mt-12"
                     /></a>
                     <button
                         className="flex flex-col gap-2 cursor-pointer lg:hidden relative z-20"
@@ -35,32 +36,7 @@ const Header = () => {
                             } absolute top-0 left-0 w-full bg-white max-lg:bg-sky-300 shadow-lg lg:flex  max-lg:fixed lg:static lg:w-auto  items-center max-lg:min-h-screen  z-10`}
                     >
                         <div className="flex !pl-[41px] flex-col !text-base lg:flex-row gap-[42px] py-6 md:py-0 md:pl-0 items-center max-lg:justify-center max-lg:min-h-screen">
-                            {[
-                                {
-                                    title: "How We Help",
-                                    links: [
-                                        "Drive ",
-                                        "Customers",
-                                        " Brand",
-                                    ],
-                                },
-                                {
-                                    title: "Who We Help",
-                                    links: [
-                                        "B2B",
-                                        "Dealers ",
-                                        "Manufacturing",
-                                    ],
-                                },
-                                {
-                                    title: "Why Venveo",
-                                    links: ["Who", "Results", "Approach"],
-                                },
-                                {
-                                    title: "Resources",
-                                    links: ["Blog", "Studies", "Webinars"],
-                                },
-                            ].map((menu, index) => (
+                            {DROPDOWN_LIST.map((menu, index) => (
                                 <div key={index} className="relative dropdown">
                                     <a
                                         href="#"
