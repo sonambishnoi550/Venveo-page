@@ -16,7 +16,7 @@ const Header = () => {
                     <a href="/"><img
                         src="./assets/images/png/header-logo.png"
                         alt="venveo-logo-img"
-                        className="w-[59px] max-sm:w-[42px] md:h-[90px] mt-12 max-md:mt-8 max-sm:mt-1"
+                        className="w-[59px] max-sm:w-[42px] md:h-[90px] mt-12 max-md:mt-8 max-sm:mt-4"
                     /></a>
                     <button
                         className="flex flex-col gap-2 cursor-pointer lg:hidden relative z-20"
