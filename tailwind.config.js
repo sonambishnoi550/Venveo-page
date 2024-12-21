@@ -38,6 +38,7 @@ module.exports = {
       },
       colors: {
         lightgreen: '#D2F038',
+       green: '#097980',
       }
     },
   },

@@ -25,7 +25,7 @@ const Hero = () => {
                     </button>
                 </form>
 
-                <img className='pt-[66px] md:block hidden pointer-events-none pb-10' src="./assets/png/hero-image.png" alt="work" />
+                <img className='pt-[66px] md:block hidden pointer-events-none pb-10 max-w-[924px] mx-auto max-lg:max-w-[697px]' src="./assets/png/hero-image.png" alt="work" />
                 <img className='pt-12 max-md:block hidden pointer-events-none pb-10' src="./assets/png/hero-work-image.png" alt="work" />
             </div>
         </div>

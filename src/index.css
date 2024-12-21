@@ -15,3 +15,16 @@
 body {
     font-family: 'Maison Neue', sans-serif;
 }
+ @keyframes scroll-right-to-left {
+            0% {
+                transform: translateX(0%);
+            }
+
+            100% {
+                transform: translateX(-10%);
+            }
+        }
+
+        .scroll-right-to-left {
+            animation: scroll-right-to-left 15s linear infinite;
+        }
