@@ -21,11 +21,11 @@ module.exports = {
         'custom-2xl': '22px',
         'custom-8xl': '100px',
         'custom-9xl': '120px',
- 
+
       },
-      fontFamily: {
-        'Söhne ': "Söhne Schmal' ,sans serif",
-      },
+      // fontFamily: {
+      //   'Söhne ': "Söhne Schmal' ,sans serif",
+      // },
       lineHeight: {
         'custom-md': '115%',
         'custom-2md': '121%',
@@ -38,7 +38,7 @@ module.exports = {
       },
       colors: {
         lightgreen: '#D2F038',
-       green: '#097980',
+        green: '#097980',
       }
     },
   },

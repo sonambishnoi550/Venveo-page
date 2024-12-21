@@ -59,7 +59,7 @@ const Header = () => {
                                 </div>
                             ))}
                             <img className="cursor-pointer" src="./assets/svg/search.svg" alt="search" />
-                            <div className=" bg-lightgreen hover:bg-green flex py-8 px-[31px] h-[81px] ">
+                            <div className=" bg-lightgreen hover:bg-green flex lg:py-8 py-4 px-[31px] lg:h-[81px] ">
                                 <a
                                     href="#"
                                     className="text-custom-xs font-medium leading-custom-xl flex">
