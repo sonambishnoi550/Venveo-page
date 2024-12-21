@@ -14,7 +14,7 @@ const Header = () => {
             <nav className="h-[80px] max-w-[1440px] mx-auto">
                 <div className="flex justify-between items-center max-lg:px-4 md:pl-14 lg:-mt-7">
                     <a href="/"><img
-                        src="./assets/png/header-logo.png"
+                        src="./assets/images/png/header-logo.png"
                         alt="venveo-logo-img"
                         className="w-[59px] max-sm:w-[42px] md:h-[90px] mt-12 max-md:mt-8 max-sm:mt-1"
                     /></a>
@@ -58,12 +58,12 @@ const Header = () => {
                                     </div>
                                 </div>
                             ))}
-                            <img className="cursor-pointer" src="./assets/svg/search.svg" alt="search" />
+                            <img className="cursor-pointer" src="./assets/images/svg/search.svg" alt="search" />
                             <div className=" bg-lightgreen hover:bg-green flex lg:py-8 py-4 px-[31px] lg:h-[81px] ">
                                 <a
                                     href="#"
                                     className="text-custom-xs font-medium leading-custom-xl flex">
-                                    Let’s Talk <span><img className="mt-2 ml-1" src="./assets/svg/talk.svg" alt="arrow" /></span>
+                                    Let’s Talk <span><img className="mt-2 ml-1" src="./assets/images/svg/talk.svg" alt="arrow" /></span>
                                 </a>
                             </div>
                         </div>

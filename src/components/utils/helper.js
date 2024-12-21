@@ -26,9 +26,9 @@
  ]
 export const FEATURE_LIST = 
     [
-        { src: "./assets/svg/wsg.svg", alt: "wsg" },
-        { src: "./assets/png/entrepreneur.png", alt: "entrepreneur"},
-        { src: "./assets/png/fortune.png", alt: "fortune" },
-        { src: "./assets/png/forbes.png", alt: "forbes"  },
-        { src: "./assets/png/inc.png", alt: "inc" },
+        { src: "./assets/images/svg/wsg.svg", alt: "wsg" },
+        { src: "./assets/images/png/entrepreneur.png", alt: "entrepreneur"},
+        { src: "./assets/images/png/fortune.png", alt: "fortune" },
+        { src: "./assets/images/png/forbes.png", alt: "forbes"  },
+        { src: "./assets/images/png/inc.png", alt: "inc" },
                   ]

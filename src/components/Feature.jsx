@@ -60,7 +60,7 @@ const Feature = () => {
 
             </div>
             <img
-                src="./assets/png/feature-line.png"
+                src="./assets/images/png/feature-line.png"
                 alt="line image"
                 className="mx-auto w-full"
             />

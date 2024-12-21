@@ -4,6 +4,7 @@
 @font-face {
     font-family: 'Söhne Schmal';
     src: url('../public/assets/fonts/TestSöhneSchmal-Fett.otf') format('truetype');
+    font-weight: 700;
 }
 @font-face {
     font-family: 'Maison Neue';

@@ -23,9 +23,6 @@ module.exports = {
         'custom-9xl': '120px',
 
       },
-      // fontFamily: {
-      //   'Söhne ': "Söhne Schmal' ,sans serif",
-      // },
       lineHeight: {
         'custom-md': '115%',
         'custom-2md': '121%',
