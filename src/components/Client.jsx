@@ -39,7 +39,7 @@ const Client = () => {
                                     <div key={index}>
                                         <p className="text-black leading-10 text-custom-4xl max-sm:text-custom-3xl font-bold sohne"> {stat.value}
                                         </p>
-                                        <p className="text-black leading-4 text-custom-xs font-light pt-1">
+                                        <p className="text-black leading-4 text-custom-xs font-light pt-1 whitespace-nowrap">
                                             {stat.label} </p>
                                     </div>))}
                             </div>

@@ -107,7 +107,7 @@ export const CLIENT_CARD = [
     {
         id: 2,
         backgroundImage: "./assets/images/png/client-card-two.png",
-        buttonLabel: "HVAC Marketing",
+        buttonLabel: "HVAC Marketing" ,
         buttonPosition: { top: "5%", left: "15%" },
         logo: "./assets/images/png/farnswort.png",
         logoAlt: "Farnsworth",
