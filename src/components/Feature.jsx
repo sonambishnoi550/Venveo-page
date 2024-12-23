@@ -32,11 +32,11 @@ const Feature = () => {
                     style={{ scrollBehavior: 'auto', whiteSpace: 'nowrap', }}>
                     {infiniteImages.map((img, index) => (
                         <img key={index} src={img.src} alt={img.alt} style={{ width: img.width, }}
-                            className="h-auto inline-block pointer-events-none" /> ))}
+                            className=" inline-block pointer-events-none" /> ))}
                 </div>
                 <div className="hidden lg:flex gap-12 justify-center xl:gap-[123px] lg:gap-20">
                     {FEATURE_LIST.map((img, index) => (
-                        <img key={index} src={img.src}  alt={img.alt} style={{ width: img.width, }} className="h-auto pointer-events-none"  /> ))}
+                        <img key={index} src={img.src}  alt={img.alt} style={{ width: img.width, }} className=" pointer-events-none"  /> ))}
                 </div>
             </div>
             <img src="./assets/images/png/feature-line.png" alt="line image" className="mx-auto w-full" />
