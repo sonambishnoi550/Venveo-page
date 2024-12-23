@@ -25,7 +25,7 @@ const Feature = () => {
     const infiniteImages = [...FEATURE_LIST, ...FEATURE_LIST];
 
     return (
-        <div className="sm:mt-[11rem] mt-[22rem] xl:mt-[22rem] lg:mt-[20rem] md:mt-21 mb-5">
+        <div className="sm:mt-[11rem] mt-[22rem] xl:mt-[22rem] lg:mt-[20rem] md:mt-21">
             <div className="container mx-auto pb-14">
                 <p className="flex justify-center pb-12 font-normal text-custom-xs leading-4">
                     Featured in

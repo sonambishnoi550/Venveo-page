@@ -19,7 +19,10 @@ module.exports = {
         'custom-xxs': '6px',
         'custom-xs': '15px',
         'custom-2xl': '22px',
+        'custom-3xl': '40px',
+        'custom-4xl': '50px',
         'custom-5xl': '57px',
+        'custom-7xl': '80px',
         'custom-8xl': '100px',
         'custom-9xl': '120px',
 
