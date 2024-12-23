@@ -2,28 +2,27 @@ import React from 'react';
 
 const Client = () => {
     return (
-        <section className="pb-8 pt-1">
+        <section className="pt-1">
             <div className=" max-w-[1440px] mx-auto">
                 <h2 className="text-3xl max-sm:text-2xl font-light text-center leading-8 sm:pt-24 pt-9">
                     Driving digital revenue for over
                 </h2>
-                <h2 className="text-custom-7xl max-md:text-6xl text-center sm:pb-20 pb-4 leading-[70px] font-bold pt-2 sohne uppercase">
+                <h2 className="text-custom-7xl max-md:text-6xl text-center sm:pb-20 pb-12 leading-[70px] font-bold pt-2 sohne uppercase">
                     1,400+ satisfied clients.
                 </h2>
 
                 <div className="flex justify-between flex-wrap max-xl:justify-center max-xl:gap-10">
-                    {/** Card 1 */}
                     <div
                         style={{ backgroundImage: `url(./assets/images/png/client-card-one.png)` }}
                         className="bg-center bg-no-repeat bg-cover max-w-[440px] px-7 min-h-[500px] h-full relative"
                     >
                         <button
-                            className="text-xs font-semibold text-white bg-black rounded-[1000px] px-3 py-2 absolute top-[3%] left-[13%] leading-5"
+                            className="text-xs font-semibold text-white bg-black rounded-[1000px] pl-3 pr-12 py-[7px] absolute top-[3%] left-[13%] leading-5"
                         >
                             Education Company
                         </button>
                         <div className="bg-white mt-[35px]  px-[29px] pb-[31px] rounded-[25px]">
-                            <img src="./assets/images/png/amber-book.png" alt="Amber Book" className="pt-9 max-w-[131px]" />
+                            <img src="./assets/images/png/amber-book.png" alt="Amber Book" className="pt-9 max-w-[131px] pointer-events-none" />
                             <p className="max-w-80 text-3xl py-6 font-light max-sm:text-2xl">
                                 Driving digital revenue for over 1,000+ satisfied clients.
                             </p>
@@ -62,8 +61,6 @@ const Client = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/** Card 2 */}
                     <div
                         style={{ backgroundImage: `url(./assets/images/png/client-card-two.png)` }}
                         className="bg-center bg-no-repeat bg-cover max-w-[440px] px-7 min-h-[500px] h-full relative"
@@ -74,7 +71,7 @@ const Client = () => {
                             HVAC Marketing
                         </p>
                         <div className="bg-white mt-[35px]  px-[29px] pb-[31px] rounded-[25px]">
-                            <img src="./assets/images/png/farnswort.png" alt="Farnsworth" className="pt-9 max-w-[149.73px]" />
+                            <img src="./assets/images/png/farnswort.png" alt="Farnsworth" className="pt-9 max-w-[149.73px] pointer-events-none" />
                             <p className="max-w-80 text-3xl py-6 max-sm:text-2xl font-light">
                                 Driving digital revenue for over 1,000+ satisfied clients.
                             </p>
@@ -113,14 +110,13 @@ const Client = () => {
                             </div>
                         </div>
                     </div>
-
                     <div
                         style={{ backgroundImage: `url(./assets/images/png/client-card-three.png)` }}
                         className="bg-center bg-no-repeat bg-cover max-w-[440px] px-[29px] min-h-[500px] h-full relative"
                     >
                        
                         <div className="bg-white mt-[35px] px-[29px] pb-[31px] rounded-[25px]">
-                            <img src="./assets/images/png/us.png" alt="Farnsworth" className="pt-9 max-w-[49px]" />
+                            <img src="./assets/images/png/us.png" alt="Farnsworth" className="pt-9 max-w-[49px] pointer-events-none" />
                             <p className="max-w-80 text-3xl py-6 max-sm:text-2xl font-light">
                                 Driving digital revenue for over 1,000+ satisfied clients.
                             </p>

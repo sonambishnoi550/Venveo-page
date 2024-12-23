@@ -9,9 +9,11 @@
 @font-face {
     font-family: 'Maison Neue';
     src: url('../public/assets/fonts/MaisonNeue-Light.otf') format('truetype');
+      font-weight: 600;
 }
 .sohne {
     font-family: 'Söhne Schmal', sans-serif;
+    font-weight: 600;
 }
 body {
     font-family: 'Maison Neue', sans-serif;

@@ -40,6 +40,7 @@ module.exports = {
       colors: {
         lightgreen: '#D2F038',
         green: '#097980',
+        sky: '#00afb5',
         lightgray: '#9dc9cc',
       }
     },

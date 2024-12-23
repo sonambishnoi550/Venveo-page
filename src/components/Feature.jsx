@@ -11,7 +11,7 @@ const Feature = () => {
             let animationFrameId;
 
             const smoothScroll = () => {
-                slider.scrollLeft += 1;
+                slider.scrollLeft += 0.5;
                 if (slider.scrollLeft >= slider.scrollWidth / 2) {
                     slider.scrollLeft = 0;
                 }
@@ -32,7 +32,7 @@ const Feature = () => {
                 </p>
                 <div
                     ref={sliderRef}
-                    className="flex gap-12 overflow-hidden lg:hidden"
+                    className="flex gap-24 overflow-hidden lg:hidden"
                     style={{
                         scrollBehavior: 'auto',
                         whiteSpace: 'nowrap',
@@ -42,8 +42,11 @@ const Feature = () => {
                         <img
                             key={index}
                             src={img.src}
-                            alt={`featured - logo - ${index}`}
-                            className="h-auto w-32 object-contain inline-block"
+                            alt={img.alt}
+                            style={{
+                                width: img.width,
+                            }}
+                            className="h-auto inline-block pointer-events-none"
                         />
                     ))}
                 </div>
@@ -52,12 +55,14 @@ const Feature = () => {
                         <img
                             key={index}
                             src={img.src}
-                            alt={`featured - logo - ${index}`}
-                            className="h-auto w-32 object-contain"
+                            alt={img.alt}
+                            style={{
+                                width: img.width,
+                            }}
+                            className="h-auto pointer-events-none"
                         />
                     ))}
                 </div>
-
             </div>
             <img
                 src="./assets/images/png/feature-line.png"

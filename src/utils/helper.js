@@ -24,14 +24,14 @@
         links: ["Blog", "Studies", "Webinars"],
     },
  ]
-export const FEATURE_LIST = 
-    [
-        { src: "./assets/images/svg/wsg.svg", alt: "wsg" },
-        { src: "./assets/images/png/entrepreneur.png", alt: "entrepreneur"},
-        { src: "./assets/images/png/fortune.png", alt: "fortune" },
-        { src: "./assets/images/png/forbes.png", alt: "forbes"  },
-        { src: "./assets/images/png/inc.png", alt: "inc" },
-    ]
+export const FEATURE_LIST = [
+    { src: "./assets/images/svg/wsg.svg", alt: "wsg", width: "49.53px" },
+    { src: "./assets/images/png/entrepreneur.png", alt: "entrepreneur", width: "183.46px" },
+    { src: "./assets/images/png/fortune.png", alt: "fortune", width: "116px" },
+    { src: "./assets/images/png/forbes.png", alt: "forbes", width: "103.12px" },
+    { src: "./assets/images/png/inc.png", alt: "inc", width: "81.02px" },
+];
+
 export const CARD_LIST = [
     {
         id: 1,
@@ -72,6 +72,7 @@ export const CARD_LIST = [
             "Maximize conversion opportunities",
         ],
     },
+
     {
         id: 4,
         imgSrc: "./assets/images/svg/data.svg",

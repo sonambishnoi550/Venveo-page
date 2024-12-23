@@ -58,12 +58,12 @@ const Header = () => {
                                     </div>
                                 </div>
                             ))}
-                            <img className="cursor-pointer" src="./assets/images/svg/search.svg" alt="search" />
+                            <img className="cursor-pointer pointer-events-none" src="./assets/images/svg/search.svg" alt="search" />
                             <div className=" bg-lightgreen hover:bg-green flex lg:pt-[25px] lg:pb-8 py-4 px-[31px] lg:h-[81px] cursor-pointer ">
                                 <a
                                     href="#"
                                     className="text-custom-xs font-medium leading-custom-xl flex">
-                                    Let’s Talk <span><img className="mt-2 ml-1" src="./assets/images/svg/talk.svg" alt="arrow" /></span>
+                                    Let’s Talk <span><img className="mt-2 ml-1 pointer-events-none" src="./assets/images/svg/talk.svg" alt="arrow" /></span>
                                 </a>
                             </div>
                         </div>
