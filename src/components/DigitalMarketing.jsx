@@ -26,7 +26,7 @@ const MarketingSection = () => {
                                         className="max-sm:size-[38px] max-md:block hidden mb-2 pointer-events-none" />
                                     <p className="font-light text-left text-3xl max-sm:text-2xl leading-8 pb-[15px]">
                                         {card.title}</p>
-                                    <p className="text-custom-xs font-normal text-left pb-[15px]  max-w-[315px]">
+                                    <p className="text-custom-xs font-normal text-left pb-[15px] max-w-[315px]">
                                         {card.description} </p>
                                     <ul className="max-sm:ml-3">
                                         {card.points.map((point, index) => (
@@ -38,8 +38,8 @@ const MarketingSection = () => {
                                         className="relative pt-[15px] inline-block font-semibold text-custom-xs text-black pb-0.5 after:absolute after:left-0 after:w-0 after:transition-all after:duration-300 hover:after:w-full after:bottom-0 after:h-0.5 after:bg-green"
                                     > Explore SEO Services
                                         <svg className="ml-2 hover:fill-green transition-all duration-300 inline-block"
-                                            width="10"  height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"  >
-                                            <path  d="M10 5.00343L0 0V10L10 5.00343Z" className="fill-current" />  </svg>
+                                            width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10 5.00343L0 0V10L10 5.00343Z" className="fill-current" /></svg>
                                     </a>
                                 </div>
                             </div>
