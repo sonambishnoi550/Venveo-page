@@ -87,3 +87,51 @@ export const CARD_LIST = [
         ],
     },
 ];
+export const CLIENT_CARD = [
+    {
+        id: 1,
+        backgroundImage: "./assets/images/png/client-card-one.png",
+        buttonLabel: "Education Company",
+        buttonPosition: { top: "3%", left: "13%" },
+        logo: "./assets/images/png/amber-book.png",
+        logoAlt: "Amber-Book",
+        logoWidth: "131px",
+        description: "Driving digital revenue for over 1,000+ satisfied clients.",
+        subText: "Elevate your business with our top-tier services and tech.",
+        stats: [
+            { value: "80%", label: "Leads" },
+            { value: "2X", label: "Ad Leads" },
+            { value: "520%", label: "Web Traffic" },
+        ],
+    },
+    {
+        id: 2,
+        backgroundImage: "./assets/images/png/client-card-two.png",
+        buttonLabel: "HVAC Marketing",
+        buttonPosition: { top: "5%", left: "15%" },
+        logo: "./assets/images/png/farnswort.png",
+        logoAlt: "Farnsworth",
+        logoWidth: "149.73px",
+        description: "Driving digital revenue for over 1,000+ satisfied clients.",
+        subText: "Elevate your business with our top-tier services and tech.",
+        stats: [
+            { value: "80%", label: "Leads" },
+            { value: "2X", label: "Ad Leads" },
+            { value: "520%", label: "Web Traffic" },
+        ],
+    },
+    {
+        id: 3,
+        backgroundImage: "./assets/images/png/client-card-three.png",
+        logo: "./assets/images/png/us.png",
+        logoAlt: "US",
+        logoWidth: "49px",
+        description: "Driving digital revenue for over 1,000+ satisfied clients.",
+        subText: "Elevate your business with our top-tier services and tech.",
+        stats: [
+            { value: "80%", label: "Leads" },
+            { value: "2X", label: "Ad Leads" },
+            { value: "520%", label: "Web Traffic" },
+        ],
+    },
+];
