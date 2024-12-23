@@ -13,28 +13,16 @@ const Header = () => {
         <header>
             <nav className="h-[80px] max-w-[1440px] mx-auto">
                 <div className="flex justify-between items-center max-lg:px-4 md:pl-14 lg:-mt-7">
-                    <a href="/"><img
-                        src="./assets/images/png/header-logo.png"
-                        alt="venveo-logo-img"
-                        className="w-[59px] max-sm:w-[42px] md:h-[90px] mt-12 max-md:mt-8 max-sm:mt-4 max-xl:mt-8"
-                    /></a>
-                    <button
-                        className="flex flex-col gap-2 cursor-pointer lg:hidden relative z-20"
-                        onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    >
-                        <span
-                            className={`w-9 h-[2px] bg-white transition-transform ${isMenuOpen ? "rotate-45 translate-y-2" : ""
-                                }`}
-                        ></span>
+                    <a href="/"><img src="./assets/images/png/header-logo.png" alt="venveo-logo-img"
+                        className="w-[59px] max-sm:w-[42px] md:h-[90px] mt-12 max-md:mt-8 max-sm:mt-4 max-xl:mt-8"/></a>
+                    <button className="flex flex-col gap-2 cursor-pointer lg:hidden relative z-20" onClick={() => setIsMenuOpen(!isMenuOpen)} >
+                        <span className={`w-9 h-[2px] bg-white transition-transform ${isMenuOpen ? "rotate-45 translate-y-2" : "" }`}  ></span>
                         <span
                             className={`w-9 h-[2px] bg-white transition-transform ${isMenuOpen ? "-rotate-45 " : ""
-                                }`}
-                        ></span>
+                                }`}></span>
                     </button>
-                    <div
-                        className={`${isMenuOpen ? "block" : "hidden"
-                            } absolute top-0 left-0 w-full transition-all duration-500 bg-white max-lg:bg-green shadow-lg lg:flex lg:-top-full max-lg:fixed lg:static lg:w-auto  items-center max-lg:min-h-screen  z-10`}
-                    >
+                    <div className={`${isMenuOpen ? "block" : "hidden"
+                            } absolute top-0 left-0 w-full transition-all duration-500 bg-white max-lg:bg-green shadow-lg lg:flex lg:-top-full max-lg:fixed lg:static lg:w-auto  items-center max-lg:min-h-screen  z-10`} >
                         <div className="flex !pl-[41px] flex-col !text-base lg:flex-row gap-[42px] py-6 md:py-0 md:pl-0 items-center max-lg:justify-center max-lg:min-h-screen">
                             {DROPDOWN_LIST.map((menu, index) => (
                                 <div key={index} className="relative dropdown">
