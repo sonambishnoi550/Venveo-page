@@ -1,4 +1,4 @@
- export const DROPDOWN_LIST = [
+export const DROPDOWN_LIST = [
     {
         title: "How We Help",
         links: [
@@ -23,7 +23,7 @@
         title: "Resources",
         links: ["Blog", "Studies", "Webinars"],
     },
- ]
+];
 export const FEATURE_LIST = [
     { src: "./assets/images/svg/wsg.svg", alt: "wsg", width: "49.53px" },
     { src: "./assets/images/png/entrepreneur.png", alt: "entrepreneur", width: "183.46px" },
@@ -135,3 +135,4 @@ export const CLIENT_CARD = [
         ],
     },
 ];
+

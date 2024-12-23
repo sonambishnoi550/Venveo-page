@@ -1,60 +1,6 @@
 import React from "react";
 import { CARD_LIST } from "../utils/helper";
 const MarketingSection = () => {
-    const cards = [
-        {
-            id: 1,
-            imgSrc: "./assets/images/svg/traffic.svg",
-            imgAlt: "Website Traffic",
-            title: "My website isn't getting enough traffic",
-            description:
-                "Without consistent site traffic, you’re missing out on valuable visitors, leads, and revenue. Thankfully, custom SEO solutions can get you back on track by boosting your presence in search engine results, so more people can find and visit your site.",
-            points: [
-                "Boost your presence in search results",
-                "Capture targeted site traffic",
-                "Turn site visitors into customers",
-            ],
-        },
-        {
-            id: 2,
-            imgSrc: "./assets/images/svg/digital.svg",
-            imgAlt: "Digital Ad Campaigns",
-            title: "My CPL from digital ad campaigns is too high",
-            description:
-                "Without consistent site traffic, you’re missing out on valuable visitors, leads, and revenue. Thankfully, custom SEO solutions can get you back on track by boosting your presence in search engine results, so more people can find and visit your site.",
-            points: [
-                "Refine ad targeting",
-                "Engage your audience where they browse online",
-                "Maximize paid ad budget",
-            ],
-        },
-        {
-            id: 3,
-            imgSrc: "./assets/images/svg/website.svg",
-            imgAlt: "Lead Generation",
-            title: "My website isn’t generating enough leads",
-            description:
-                "Struggling to get qualified leads in your pipeline? Turn up the dial on your lead generation with digital marketing plans, tailored to your goals and budget.",
-            points: [
-                "Fill up your lead pipeline",
-                "Reach your most valuable audience",
-                "Maximize conversion opportunities",
-            ],
-        },
-        {
-            id: 4,
-            imgSrc: "./assets/images/svg/data.svg",
-            imgAlt: "Disconnected Data",
-            title: "My marketing and sales data is disconnected",
-            description:
-                "Don't let leads slip through the cracks. Unify your sales and marketing efforts with Nutshell and MarketingCloudFX, to provide end-to-end reporting and analysis of your data.",
-            points: [
-                "Unify sales and marketing data",
-                "Prioritize leads with data-backed insights",
-                "Turn opportunities into closed deals",
-            ],
-        },
-    ];
 
     return (
         <section className="xl:pt-[132px] pt-24 relative min-h-screen max-sm:pt-[65px]">
@@ -85,29 +31,16 @@ const MarketingSection = () => {
                                     <ul className="max-sm:ml-3">
                                         {card.points.map((point, index) => (
                                             <li key={index}
-                                                className="list-disc text-custom-xs font-semibold leading-5 text-left">
-                                                {point} </li>))}
+                                                className="list-disc text-custom-xs font-semibold leading-5 text-left"> {point} </li>))}
                                     </ul>
                                     <a
                                         href="#"
                                         className="relative pt-[15px] inline-block font-semibold text-custom-xs text-black pb-0.5 after:absolute after:left-0 after:w-0 after:transition-all after:duration-300 hover:after:w-full after:bottom-0 after:h-0.5 after:bg-green"
-                                    >
-                                        Explore SEO Services
-                                        <svg
-                                            className="ml-2 hover:fill-green transition-all duration-300 inline-block"
-                                            width="10"
-                                            height="10"
-                                            viewBox="0 0 10 10"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                d="M10 5.00343L0 0V10L10 5.00343Z"
-                                                className="fill-current"
-                                            />
-                                        </svg>
+                                    > Explore SEO Services
+                                        <svg className="ml-2 hover:fill-green transition-all duration-300 inline-block"
+                                            width="10"  height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"  >
+                                            <path  d="M10 5.00343L0 0V10L10 5.00343Z" className="fill-current" />  </svg>
                                     </a>
-
                                 </div>
                             </div>
                         </div>

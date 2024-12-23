@@ -18,60 +18,30 @@ const Client = () => {
                         <div
                             key={card.id}
                             style={{ backgroundImage: `url(${card.backgroundImage})` }}
-                            className="bg-center bg-no-repeat bg-cover max-w-[440px] px-7 min-h-[500px] h-full relative"
-                        >
+                            className="bg-center bg-no-repeat bg-cover max-w-[440px] px-7 min-h-[500px] h-full relative" >
                             {card.buttonLabel && (
-                                <button
-                                    className="text-xs font-semibold text-white bg-black rounded-[1000px] pl-3 pr-12 py-[7px] absolute leading-5"
-                                    style={card.buttonPosition}
-                                >
-                                    {card.buttonLabel}
-                                </button>
-                            )}
+                                <button className="text-xs font-semibold text-white bg-black rounded-[1000px] pl-3 pr-12 py-[7px] absolute leading-5"
+                                    style={card.buttonPosition}> {card.buttonLabel}</button>)}
                             <div className="bg-white mt-[35px] px-[29px] pb-[31px] rounded-[25px]">
-                                <img
-                                    src={card.logo}
-                                    alt={card.logoAlt}
-                                    className="pt-9 pointer-events-none"
-                                    style={{ maxWidth: card.logoWidth }}
-                                />
-                                <p className="max-w-80 text-3xl py-6 font-light max-sm:text-2xl">
-                                    {card.description}
-                                </p>
-                                <p className="text-custom-xs max-w-[315px] leading-5 font-normal">
-                                    {card.subText}
-                                </p>
-                                <a
-                                    href="#"
-                                    className="relative pt-[56px] inline-block font-semibold text-custom-xs text-black pb-0.5 after:absolute after:left-0 after:w-0 after:transition-all after:duration-300 hover:after:w-full after:bottom-0 after:h-0.5 after:bg-green"
-                                >
-                                    Learn More
-                                    <svg
-                                        className="ml-2 hover:fill-green transition-all duration-300 inline-block"
-                                        width="10"
-                                        height="10"
-                                        viewBox="0 0 10 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M10 5.00343L0 0V10L10 5.00343Z"
-                                            className="fill-current"
-                                        />
-                                    </svg>
+                                <img src={card.logo} alt={card.logoAlt} className="pt-9 pointer-events-none"
+                                    style={{ maxWidth: card.logoWidth }} />
+                                <p className="max-w-80 text-3xl py-6 font-light max-sm:text-2xl"> {card.description} </p>
+                                <p className="text-custom-xs max-w-[315px] leading-5 font-normal"> {card.subText}</p>
+                                <a href="#" className="relative pt-[56px] inline-block font-semibold text-custom-xs
+                                 text-black pb-0.5 after:absolute after:left-0 after:w-0 after:transition-all after:duration-300 hover:after:w-full after:bottom-0 after:h-0.5 after:bg-green" >Learn More
+                                    <svg className="ml-2 hover:fill-green transition-all duration-300 inline-block"
+                                        width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" >
+                                        <path d="M10 5.00343L0 0V10L10 5.00343Z" className="fill-current" /> </svg>
                                 </a>
                             </div>
                             <div className="flex gap-9 pt-3 pb-8 pl-4">
                                 {card.stats.map((stat, index) => (
                                     <div key={index}>
-                                        <p className="text-black leading-10 text-custom-4xl max-sm:text-custom-3xl font-bold sohne">
-                                            {stat.value}
+                                        <p className="text-black leading-10 text-custom-4xl max-sm:text-custom-3xl font-bold sohne"> {stat.value}
                                         </p>
                                         <p className="text-black leading-4 text-custom-xs font-light pt-1">
-                                            {stat.label}
-                                        </p>
-                                    </div>
-                                ))}
+                                            {stat.label} </p>
+                                    </div>))}
                             </div>
                         </div>
                     ))}
