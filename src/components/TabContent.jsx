@@ -3,7 +3,7 @@ const Tab = ({ activeTab }) => {
     switch (activeTab) {
         case "tab1":
             return (
-                <div style={{ backgroundImage: `url(./assets/images/png/tab-one-bg.png)` }} className="relative bg-cover !max-w-[1280px] bg-center sm:px-20 sm:py-16 px-4 py-6 bg-no-repeat">
+                <div style={{ backgroundImage:`url(./assets/images/png/tab-one-bg.png)`}} className="relative bg-cover !max-w-[1280px] bg-center sm:px-20 sm:py-16 px-4 py-6 bg-no-repeat">
                     <div className="lg:flex justify-between">
                         <div className="lg:w-4/12">
                             <p className="uppercase text-white text-custom-7xl sohne leading-[70px] font-bold">
@@ -17,7 +17,7 @@ const Tab = ({ activeTab }) => {
                             </p>
                             <div className="flex">
                                 <a href="#" className="bg-red-500 flex px-[32px] py-[31px] text-white text-custom-xs"><img className="mr-[10px]" src="./assets/images/svg/subscribe.svg" alt="" />
-                                    Subscribe to Podcast < span className="text-custom-xxs ml-1 mt-[10px]"> ▼</span>
+                                    Subscribe to Podcast <span className="text-custom-xxs ml-1 mt-[10px]"> ▼</span>
                                 </a>
                             </div>
                         </div>
@@ -46,16 +46,16 @@ const Tab = ({ activeTab }) => {
                         Not hopes and prayers.
                     </p>
                     <div className="max-w-[293px] absolute bottom-[10%] left-[-5%]">
-                        <img className="max-w-[293px]" src="./assets/images/png/tab-two-yellow-circle.png" alt="" />
+                        <img className="max-w-[293px]" src="./assets/images/png/tab-two-yellow-circle.png" alt="circle" />
                     </div>
                     <div className=" max-w-[189px] absolute top-[34%] right-[-5%]">
-                        <img src="./assets/images/png/tab-two-green-circle.png" alt="" />
+                        <img src="./assets/images/png/tab-two-green-circle.png" alt="circle" />
                     </div>
                 </div>
             );
         case "tab3":
             return (
-                <div style={{ backgroundImage: `url(./assets/images/png/tab-three-bg.png)` }} className="max-w-[1280px] px-[79px] pt-[75px] h-[720px] mt-20">
+                <div style={{ backgroundImage: `url(./assets/images/png/tab-three-bg.png)` }} className="max-w-[1280px] px-[79px] pt-[75px] h-[720px]">
                     <div className="lg:flex justify-between">
                         <div className="lg:w-5/12">
                             <h2 className="text-custom-7xl leading-[70px] sohne font-bold text-left pb-2 text-white uppercase">
@@ -69,7 +69,7 @@ const Tab = ({ activeTab }) => {
                             <div className="flex mt-16">
                                 <a href="#" className="bg-yellow text-custom-xs font-semibold text-center py-8 px-8 flex gap-[10px]">
                      
-                                    Call to Action Somewhere               <img src="./assets/images/svg/call-arrow.svg" alt="" />
+                                    Call to Action Somewhere<img src="./assets/images/svg/call-arrow.svg" alt="arrow" />
                                 </a>
                             </div>
                         </div>
@@ -102,13 +102,13 @@ const TabsComponent = () => {
                             Industry Expertise
                         </p>
                         <p
-                            className={`tab text-md text-lightblack font-semibold cursor-pointer ${activeTab === "tab2" ? "!text-black opacity-100" : ""}`}
+                            className={`tab text-lg text-lightblack font-semibold cursor-pointer ${activeTab === "tab2" ? "!text-black opacity-100" : ""}`}
                             onClick={() => setActiveTab("tab2")}
                         >
                             ROI Focused
                         </p>
                         <p
-                            className={`tab text-md text-lightblack font-semibold cursor-pointer ${activeTab === "tab3" ? "!text-black opacity-100" : ""}`}
+                            className={`tab text-lg text-lightblack font-semibold cursor-pointer ${activeTab === "tab3" ? "!text-black opacity-100" : ""}`}
                             onClick={() => setActiveTab("tab3")}
                         >
                             Proprietary Technology
