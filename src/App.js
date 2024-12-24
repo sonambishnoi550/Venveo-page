@@ -4,6 +4,7 @@ import Feature from './components/Feature'
 import  Client from './components/Client'
 import DigitalMarketing from './components/DigitalMarketing'
 import Analize from './components/Analize'
+import TabContent from './components/TabContent'
 const App = () => {
   return (
     <div>
@@ -11,7 +12,8 @@ const App = () => {
       <Feature/>
       <Client/>
       <DigitalMarketing/>
-      <Analize/>
+      <Analize />
+      <TabContent/>
     </div>
   )
 }
