@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @font-face {
     font-family: 'Söhne Schmal';
     src: url('../public/assets/fonts/TestSöhneSchmal-Fett.otf') format('truetype');

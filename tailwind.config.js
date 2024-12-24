@@ -15,6 +15,10 @@ module.exports = {
           xl: "1140px",
         },
       },
+      fontFamily: {
+        Mono: ["'Space Mono'", "sans-serif"],
+      }
+,
       fontSize: {
         'custom-xxs': '6px',
         'custom-xs': '15px',
