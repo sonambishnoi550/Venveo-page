@@ -46,6 +46,8 @@ module.exports = {
         green: '#097980',
         sky: '#00afb5',
         lightgray: '#9dc9cc',
+        lightblack: '#a6a6a6',
+        yellow:'#D2F038',
       }
     },
   },
