@@ -5,7 +5,7 @@ const MarketingSection = () => {
     return (
         <section className="xl:pt-[132px] pt-24 relative min-h-screen max-sm:pt-[65px]">
             <img src="./assets/images/png/digital-bg.png" alt="Background"
-                className="absolute top-[33rem] max-sm:top-[23rem] w-full pointer-events-none" />
+                className="absolute top-[32rem] max-sm:top-[23rem] w-full pointer-events-none" />
             <div className="container max-w-[1140px] mx-auto">
                 <p className="text-3xl font-light leading-8 text-center "> Problems we solve.</p>
                 <h2 className="text-custom-7xl font-bold leading-[70px] max-w-[554px] max-sm:text-custom-5xl max-sm:leading-[52px] text-center mx-auto pt-[5px] uppercase sohne">
@@ -19,10 +19,10 @@ const MarketingSection = () => {
                         <div key={card.id}
                             className="lg:w-6/12 w-full pb-14 max-xl:pb-8 flex justify-center" >
                             <div className="flex border-2 max-w-[503px] max-xl:max-w-[447px] max-sm:p-[30px] border-sky rounded-[25px] pt-[65px] pl-[30px] pr-[60px] pb-[54px] max-sm:pt-[34px] max-sm:pb-[36px] max-sm:px-[31px] relative z-10 bg-white md:gap-6">
-                                <img src={card.imgSrc} alt={card.imgAlt}
+                                <img src={card.img} alt={card.atl}
                                     className="h-[53px] w-[53px] md:block hidden pointer-events-none" />
                                 <div className="flex-col">
-                                    <img src={card.imgSrc} alt={card.imgAlt}
+                                    <img src={card.img} alt={card.alt}
                                         className="max-sm:size-[38px] max-md:block hidden mb-2 pointer-events-none" />
                                     <p className="font-light text-left text-3xl max-sm:text-2xl leading-8 pb-[15px]">
                                         {card.title}</p>

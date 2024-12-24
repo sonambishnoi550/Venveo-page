@@ -35,8 +35,8 @@ export const FEATURE_LIST = [
 export const CARD_LIST = [
     {
         id: 1,
-        imgSrc: "./assets/images/svg/traffic.svg",
-        imgAlt: "Website Traffic",
+        img: "./assets/images/svg/traffic.svg",
+        alt: "Website Traffic",
         title: "My website isn't getting enough traffic",
         description:
             "Without consistent site traffic, you’re missing out on valuable visitors, leads, and revenue. Thankfully, custom SEO solutions can get you back on track by boosting your presence in search engine results, so more people can find and visit your site.",
@@ -48,8 +48,8 @@ export const CARD_LIST = [
     },
     {
         id: 2,
-        imgSrc: "./assets/images/svg/digital.svg",
-        imgAlt: "Digital Ad Campaigns",
+        img: "./assets/images/svg/digital.svg",
+        alt: "Digital Ad Campaigns",
         title: "My CPL from digital ad campaigns is too high",
         description:
             "Without consistent site traffic, you’re missing out on valuable visitors, leads, and revenue. Thankfully, custom SEO solutions can get you back on track by boosting your presence in search engine results, so more people can find and visit your site.",
@@ -61,8 +61,8 @@ export const CARD_LIST = [
     },
     {
         id: 3,
-        imgSrc: "./assets/images/svg/website.svg",
-        imgAlt: "Lead Generation",
+        img: "./assets/images/svg/website.svg",
+        alt: "Lead Generation",
         title: "My website isn’t generating enough leads",
         description:
             "Struggling to get qualified leads in your pipeline? Turn up the dial on your lead generation with digital marketing plans, tailored to your goals and budget.",
@@ -75,8 +75,8 @@ export const CARD_LIST = [
 
     {
         id: 4,
-        imgSrc: "./assets/images/svg/data.svg",
-        imgAlt: "Disconnected Data",
+        img: "./assets/images/svg/data.svg",
+        alt: "Disconnected Data",
         title: "My marketing and sales data is disconnected",
         description:
             "Don't let leads slip through the cracks. Unify your sales and marketing efforts with Nutshell and MarketingCloudFX, to provide end-to-end reporting and analysis of your data.",

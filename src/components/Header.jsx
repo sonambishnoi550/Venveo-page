@@ -46,7 +46,8 @@ const Header = () => {
                                     </div>
                                 </div>
                             ))}
-                            <img className="cursor-pointer pointer-events-none" src="./assets/images/svg/search.svg" alt="search" />
+                            <a href="#"><img className=" pointer-events-none" src="./assets/images/svg/search.svg" alt="search" /></a>
+                            
                             <div className=" bg-lightgreen hover:bg-green flex lg:pt-[25px] lg:pb-8 py-4 px-[31px] lg:h-[81px] cursor-pointer ">
                                 <a
                                     href="#"
