@@ -17,7 +17,7 @@ const MarketingSection = () => {
                 <div className="lg:flex flex-wrap">
                     {CARD_LIST.map((card) => (
                         <div key={card.id}
-                            className="lg:w-6/12 w-full pb-14 max-sm:pb-8 flex justify-center" >
+                            className="lg:w-6/12 w-full pb-14 max-xl:pb-8 flex justify-center" >
                             <div className="flex border-2 max-w-[503px] max-xl:max-w-[447px] max-sm:p-[30px] border-sky rounded-[25px] pt-[65px] pl-[30px] pr-[60px] pb-[54px] max-sm:pt-[34px] max-sm:pb-[36px] max-sm:px-[31px] relative z-10 bg-white md:gap-6">
                                 <img src={card.imgSrc} alt={card.imgAlt}
                                     className="h-[53px] w-[53px] md:block hidden pointer-events-none" />

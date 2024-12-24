@@ -11,9 +11,9 @@ const Client = () => {
                 <h2 className="text-custom-7xl max-md:text-6xl text-center leading-[70px] font-bold pt-2 sohne uppercase max-sm:pb-12">
                     1,400+ satisfied clients.
                 </h2>
-                <img className='sm:pb-20 pb-12 pl-[400px] max-xl:pl-[197px] max-lg:pl-[97px] max-sm:hidden' src="./assets/images/svg/red-line.svg" alt="line" />
+                <img className='2xl:pb-20 pb-12 pl-[400px] max-xl:pl-[197px] max-lg:pl-[97px] max-sm:hidden pt-2' src="./assets/images/svg/red-line.svg" alt="line" />
 
-                <div className="flex justify-between flex-wrap max-xl:justify-center max-xl:gap-10">
+                <div className="flex justify-between flex-wrap max-xl:justify-center max-xl:gap-8">
                     {CLIENT_CARD.map((card) => (
                         <div
                             key={card.id}
