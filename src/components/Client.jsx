@@ -5,7 +5,7 @@ const Client = () => {
     return (
         <section className="pt-1">
             <div className="max-w-[1440px] max-xl:container mx-auto">
-                <h2 className="text-3xl max-sm:text-2xl font-light text-center leading-8 sm:pt-24 pt-9">
+                <h2 className="text-3xl max-sm:text-2xl font-light text-center leading-8 lg:pt-24  md:pt-20 pt-9">
                     Driving digital revenue for over
                 </h2>
                 <h2 className="text-custom-7xl max-md:text-6xl text-center leading-[70px] font-bold pt-2 sohne uppercase max-sm:pb-12">

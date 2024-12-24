@@ -25,11 +25,11 @@ export const DROPDOWN_LIST = [
     },
 ];
 export const FEATURE_LIST = [
-    { src: "./assets/images/svg/wsg.svg", alt: "wsg", width: "49.53px" },
-    { src: "./assets/images/png/entrepreneur.png", alt: "entrepreneur", width: "183.46px" },
-    { src: "./assets/images/png/fortune.png", alt: "fortune", width: "116px" },
-    { src: "./assets/images/png/forbes.png", alt: "forbes", width: "103.12px" },
-    { src: "./assets/images/png/inc.png", alt: "inc", width: "81.02px" },
+    { Img: "./assets/images/svg/wsg.svg", alt: "wsg", width: "49.53px" },
+    { Img: "./assets/images/png/entrepreneur.png", alt: "entrepreneur", width: "183.46px" },
+    { Img: "./assets/images/png/fortune.png", alt: "fortune", width: "116px" },
+    { Img: "./assets/images/png/forbes.png", alt: "forbes", width: "103.12px" },
+    { Img: "./assets/images/png/inc.png", alt: "inc", width: "81.02px" },
 ];
 
 export const CARD_LIST = [

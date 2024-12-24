@@ -31,12 +31,12 @@ const Feature = () => {
                 <div ref={sliderRef} className="flex gap-24 overflow-hidden lg:hidden"
                     style={{ scrollBehavior: 'auto', whiteSpace: 'nowrap', }}>
                     {infiniteImages.map((img, index) => (
-                        <img key={index} src={img.src} alt={img.alt} style={{ width: img.width, }}
+                        <img key={index} src={img.Img} alt={img.alt} style={{ width: img.width, }}
                             className=" inline-block pointer-events-none" /> ))}
                 </div>
                 <div className="hidden lg:flex gap-12 justify-center xl:gap-[123px] lg:gap-20">
                     {FEATURE_LIST.map((img, index) => (
-                        <img key={index} src={img.src} alt={img.alt} style={{ width: img.width, }} className=" pointer-events-none"/> ))}
+                        <img key={index} src={img.Img} alt={img.alt} style={{ width: img.width, }} className=" pointer-events-none"/> ))}
                 </div>
             </div>
             <img src="./assets/images/png/feature-line.png" alt="line-image" className="mx-auto w-full" />
