@@ -5,6 +5,7 @@ import  Client from './components/Client'
 import DigitalMarketing from './components/DigitalMarketing'
 import Analize from './components/Analize'
 import TabContent from './components/TabContent'
+import ActualResult from './components/ActualResult'
 const App = () => {
   return (
     <div>
@@ -13,7 +14,8 @@ const App = () => {
       <Client/>
       <DigitalMarketing/>
       <Analize />
-      <TabContent/>
+      <TabContent />
+      <ActualResult/>
     </div>
   )
 }

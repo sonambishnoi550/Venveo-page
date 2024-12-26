@@ -3,7 +3,7 @@ const Tab = ({ activeTab }) => {
     switch (activeTab) {
         case "tab1":
             return (
-                <div style={{ backgroundImage:`url(./assets/images/png/tab-one-bg.png)`}} className="relative bg-cover max-sm:h-[720px] !max-w-[1280px] bg-center sm:px-20 sm:py-16 px-4 py-6 bg-no-repeat">
+                <div style={{ backgroundImage:`url(./assets/images/png/tab-one-bg.png)`}} className="relative bg-cover !max-w-[1280px] bg-center sm:px-20 sm:py-16 px-4 py-6 bg-no-repeat">
                     <div className="lg:flex justify-between">
                         <div className="lg:w-4/12">
                             <p className="uppercase text-white text-custom-7xl sohne leading-[70px] font-bold max-xl:text-4xl">

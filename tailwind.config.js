@@ -52,6 +52,7 @@ module.exports = {
       backgroundImage: {
         'tab-two': "url('/public/assets/images/png/tab-two-bg.png')",
         'mobile-tab-two': "url('/public/assets/images/png/tab-two-mobile-bg.png')",
+        'actual': "url('/public/assets/images/png/actual-bg.webp')",
       },
     },
   },
