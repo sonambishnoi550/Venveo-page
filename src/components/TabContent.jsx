@@ -8,9 +8,9 @@ const Tab = ({ activeTab }) => {
                         <div className="lg:w-4/12">
                             <p className="uppercase text-white text-custom-7xl sohne leading-[70px] font-bold max-xl:text-4xl">
                                 The smartest minds in the industry </p>
-                            <p className="text-3xl font-light text-left text-white pb-8 max-sm:pb-4 max-xl:text-2xl">
+                            <p className="text-3xl font-light text-left text-white pb-8 max-sm:pb-4 max-xl:text-2xl font-maisonLight">
                                 Answer our questions and listen to our answers.</p>
-                            <p className="font-normal text-custom-xs text-left text-white pb-[98px] max-lg:pb-[57px] max-sm:pb-[14px] max-sm:text-xl">
+                            <p className="font-normal text-custom-xs text-left text-white pb-[98px] max-lg:pb-[57px] max-sm:pb-[14px] max-sm:text-xl font-maisonMono">
                                 This is placeholder but can add more to the business of building, some epic fails (and how to avoid them), and everything building science.
                             </p>
                             <div className="flex max-lg:pb-20 max-sm:pb-6 max-sm:w-full">
@@ -39,7 +39,7 @@ const Tab = ({ activeTab }) => {
                 <div  className="relative bg-cover max-sm:bg-mobile-tab-two bg-no-repeat md:bg-tab-two bg-center pt-20 max-w-[1280px] max-xl:pt-12 max-sm:pt-5 h-[720px]">
                     <h2 className="text-custom-7xl max-md:text-custom-4xl font-bold leading-[70px] text-left text-white ps-20 max-sm:ps-8 sohne">
                         Proven Results </h2>
-                    <p className="text-3xl font-light text-left text-white ps-20 max-sm:text-2xl max-sm:ps-8">
+                    <p className="text-3xl font-light text-left text-white ps-20 max-sm:text-2xl max-sm:ps-8 font-maisonLight">
                         Not hopes and prayers. </p>
                     <div className="max-w-[293px] absolute bottom-[10%] max-md:hidden block left-[-5%] max-xl:max-w-[206px] max-xl:left-[-1%] max-lg:max-w-[161px]">
                         <img className="pointer-events-none" src="./assets/images/png/tab-two-yellow-circle.png" alt="circle" />
@@ -57,9 +57,9 @@ const Tab = ({ activeTab }) => {
                             <h2 className="text-custom-7xl max-md:text-5xl leading-[70px] sohne font-bold max-xl:text-6xl text-left pb-2 text-white uppercase">
                                 Project Radar </h2>
                             <img src="./assets/images/png/tab-logo.png" alt="Tab Logo" className=" max-w-[72.86px] pointer-events-none" />
-                            <p className="text-3xl font-light text-left text-white leading-8 pt-28 max-xl:pt-16 max-sm:pt-6 pb-[14px]">
+                            <p className="text-3xl font-light text-left text-white leading-8 pt-28 max-xl:pt-16 max-sm:pt-6 pb-[14px] font-maisonLight">
                                 Lorem ipsum what this product actually does. </p>
-                            <p className="text-white text-custom-xs font-normal leading-5 max-w-[360px] max-xl:max-w-none">This is placeholder but can add more the business of building, some epic fails (and how to avoid them) and everything building science.</p>
+                            <p className="text-white text-custom-xs font-normal leading-5 max-w-[360px] max-xl:max-w-none font-maisonMono">This is placeholder but can add more the business of building, some epic fails (and how to avoid them) and everything building science.</p>
                             <div className="flex mt-16 max-sm:mt-7 max-lg:pb-14">
                                 <a href="#" className="bg-yellow text-custom-xs font-semibold text-center py-8 px-8 flex gap-[10px] pointer-events-none">
                                     Call to Action Somewhere<img src="./assets/images/svg/call-arrow.svg" alt="arrow" /></a>
@@ -83,8 +83,8 @@ const TabsComponent = () => {
         <section className="py-14 flex justify-center">
             <div className="container max-w-[1280px] mx-auto">
                 <h2 className="text-custom-7xl font-bold text-center uppercase sohne leading-[70px] max-sm:text-6xl">The Growth Partner</h2>
-                <p className="text-3xl font-light text-center pb-[43px] max-sm:pb-[19px] max-sm:text-2xl">you’ve been looking for.</p>
-                <p className="text-custom-xs font-normal text-center pb-[105px] max-sm:pb-[56px]">Businesses trust Venveo to power growth.</p>
+                <p className="text-3xl font-light text-center pb-[43px] max-sm:pb-[19px] max-sm:text-2xl font-maisonLight">you’ve been looking for.</p>
+                <p className="text-custom-xs font-normal text-center pb-[105px] max-sm:pb-[56px] font-maisonMono">Businesses trust Venveo to power growth.</p>
                 <div className="nav-tabs">
                     <div className="flex justify-center gap-20 max-sm:gap-10 pb-[43px] tab-list max-sm:overflow-auto">
                         <p

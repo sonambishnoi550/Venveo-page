@@ -8,11 +8,11 @@ import { ACTUAL_RESULTS } from '../utils/helper';
 const ActualResult = () => {
     return (
         <div className="bg-actual bg-no-repeat bg-center bg-cover text-white pt-[67px] lg:pt-[119px] pb-6 sm:pb-8 mt-10 relative">
-            <p className="font-maisonLight max-sm:px-4 font-light text-3xl leading-custom-6xl text-white text-center">
+            <p className="max-sm:px-4 font-light text-3xl leading-custom-6xl text-white text-center font-maisonLight">
                 Actual businesses.
             </p>
-          
-            <p className="sm:mt-[46px] mt-[22px] max-sm:px-4 md:mb-[81px] mb-[39px] text-custom-lg leading-5 font-normal text-center">
+            <h2 className='font-bold sohne text-custom-7xl uppercase text-center leading-[70px]'>Actual results.</h2>
+            <p className="sm:mt-[46px] mt-[22px] max-sm:px-4 md:mb-[81px] mb-[39px] text-custom-lg leading-5 font-normal text-center font-maisonMono">
                 Businesses trust Venveo to power growth.
             </p>
 
@@ -53,13 +53,13 @@ const ActualResult = () => {
                                 alt="Thumbnail"
                                 className="!max-w-[640px] w-full mx-auto object-cover rounded transition-all duration-300 ease-in-out"
                             />
-                            <p className="mt-[30px] text-2xl leading-custom-5xl sm:text-3xl sm:leading-custom-7xl font-light font-maisonLight max-w-[251px] sm:max-w-[640px] md:mt-[74px] mx-auto">
+                            <p className="mt-[30px] text-2xl leading-custom-5xl font-maisonLight sm:text-3xl sm:leading-custom-7xl font-light max-w-[251px] sm:max-w-[640px] md:mt-[74px] mx-auto">
                                 "{obj.description}"
                             </p>
-                            <p className="mt-[23px] max-sm:px-4 text-[15px] leading-[20px] font-maisonMono font-normal">
+                            <p className="mt-[23px] max-sm:px-4 text-[15px] leading-[20px] font-normal font-maisonMono">
                                 {obj.name}
                             </p>
-                            <p className="text-sm max-sm:px-4 text-[15px] leading-[20px] font-maisonMono font-normal">
+                            <p className="text-sm max-sm:px-4 text-[15px] leading-[20px] font-normal font-maisonMono">
                                 {obj.title}
                             </p>
                             <img

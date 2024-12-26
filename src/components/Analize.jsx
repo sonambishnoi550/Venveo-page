@@ -11,10 +11,10 @@ const Analize = () => {
             <div className="container">
                 <div className="md:flex justify-between max-lg:flex-col">
                     <div className="flex-col">
-                        <p className="text-custom-xs font-normal leading-6 text-left pb-2 font-Mono max-lg:text-center">
+                        <p className="text-custom-xs font-normal leading-6 text-left pb-2 font-space max-lg:text-center">
                             Get a free competitive analysis on your market
                         </p>
-                        <p className="text-custom-3xl font-light leading-none text-left max-lg:text-center max-sm:text-2xl">
+                        <p className="text-custom-3xl font-light leading-none text-left max-lg:text-center max-sm:text-2xl font-maisonLight">
                             Outsmart your competition
                         </p>
                     </div>

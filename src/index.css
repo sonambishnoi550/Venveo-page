@@ -6,17 +6,35 @@
 
 @font-face {
     font-family: 'Söhne Schmal';
-    src: url('../public/assets/fonts/TestSöhneSchmal-Fett.otf') format('truetype');
+    src: url('../public/assets/fonts/TestSöhneSchmal-Dreiviertelfett.otf') format('truetype');
     font-weight: 700;
 }
-@font-face {
-    font-family: 'Maison Neue';
-    src: url('../public/assets/fonts/MaisonNeue-Light.otf') format('truetype');
-      font-weight: 600;
-}
+ @font-face {
+     font-family: "MaisonNeueDemi";
+     src: url('../public/assets/fonts/MaisonNeue-Demi.ttf') format("truetype");
+ }
+
+ @font-face {
+     font-family: "MaisonNeueMedium";
+     src: url('../public/assets/fonts/MaisonNeue-Medium.ttf') format("truetype");
+ }
+
+ @font-face {
+     font-family: "MaisonNeueBook";
+     src: url('../public/assets/fonts/Maison-Neue-Book.ttf') format("truetype");
+ }
+
+ @font-face {
+     font-family: "MaisonNeueMono";
+     src: url('../public/assets/fonts/Maison-Neue-Mono.ttf') format("truetype");
+ }
+
+ @font-face {
+     font-family: "MaisonNeueLight";
+     src: url('../public/assets/fonts/MaisonNeue-Light.ttf') format("truetype");
+ }
 .sohne {
     font-family: 'Söhne Schmal', sans-serif;
-    font-weight: 600;
 }
 body {
     font-family: 'Maison Neue', sans-serif;

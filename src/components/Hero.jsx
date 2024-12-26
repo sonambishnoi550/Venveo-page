@@ -9,13 +9,13 @@ const Hero = () => {
                 <h1 className='pt-[79px] max-sm:pt-[43px] text-custom-9xl xl:leading-[104px] max-xl:text-custom-8xl !font-bold leading-[97%] max-md:text-custom-5xl uppercase sohne text-white max-w-[822px] mx-auto text-center'>Make marketing
                     <span className='block'></span> a growth machine</h1>
                 <img className='ml-[273px] max-xl:ml-[200px] max-sm:ml-10 pointer-events-none max-sm:max-w-[146px] mt-1' src="./assets/images/svg/green-line.svg" alt="line" />
-                <p className='pt-3 max-md:pt-1 text-white max-w-[656px] mx-auto text-center max-sm:text-custom-2xl text-2xl leading-custom-lg'>We focus on results. Not just chatter. Elevate your business with our top-tier services and tech. Get a proposal now.</p>
+                <p className='pt-3 max-md:pt-1 text-white max-w-[656px] mx-auto text-center max-sm:text-custom-2xl text-2xl leading-custom-lg font-maisonLight'>We focus on results. Not just chatter. Elevate your business with our top-tier services and tech. Get a proposal now.</p>
                 <form className="border-2 border-white mt-[30px] text-white rounded-[50px] text-center py-4 sm:py-5 px-7 flex max-w-[448px] sm:mx-auto mx-5 justify-between">
                     <input
                         id="email"
                         type="text"
                         placeholder="Enter Your Website"
-                        className="bg-transparent outline-none placeholder:text-lightgray text-custom-xs font-normal leading-5"
+                        className="bg-transparent outline-none placeholder:text-lightgray text-custom-xs font-normal leading-5 font-maisonLight "
                         aria-label="Enter your website"
                         required
                     />

@@ -15,10 +15,18 @@ module.exports = {
           xl: "1140px",
         },
       },
+  
       fontFamily: {
-        Mono: ["'Space Mono'", "sans-serif"],
-      }
-,
+        'Söhne': "'testSöhneSchmal', sans-serif",
+        'space': "'space mono', sans-serif",
+        'MaisonNeue': "'Maison Neue',sans-serif",
+        'maisonLight': "'MaisonNeueLight',sans-serif",
+        'maisonMedium': "'MaisonNeueMedium',sans-serif",
+        'maisonDemi': "'MaisonNeueDemi',sans-serif",
+        'maisonMono': "'MaisonNeueMono',sans-serif",
+
+      },
+
       fontSize: {
         'custom-xxs': '6px',
         'custom-xs': '15px',

@@ -27,7 +27,7 @@ const Feature = () => {
     return (
         <div className="sm:mt-[11rem] mt-[22rem] xl:mt-[22rem] lg:mt-[20rem] md:mt-21">
             <div className="container mx-auto pb-14">
-                <p className="flex justify-center pb-12 font-normal text-custom-xs leading-4"> Featured in </p>
+                <p className="flex justify-center pb-12 font-normal text-custom-xs leading-4 font-maisonMono"> Featured in </p>
                 <div ref={sliderRef} className="flex gap-24 overflow-hidden lg:hidden"
                     style={{ scrollBehavior: 'auto', whiteSpace: 'nowrap', }}>
                     {infiniteImages.map((img, index) => (
