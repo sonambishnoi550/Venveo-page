@@ -19,8 +19,8 @@ const Tab = ({ activeTab }) => {
                                 </a>
                             </div>
                         </div>
-                        <div className="lg:w-2/12 lg:block max-lg:hidden">
-                            <div className="flex lg:flex-col items-center max-md:gap-14">
+                        <div className="lg:w-2/12 max-lg:overflow-auto">
+                            <div className="flex lg:flex-col items-center max-lg:gap-14">
                                 <img src="./assets/images/png/depot.png" alt="Depot Logo" className="xl:pb-20 pb-10 max-w-[66px]" />
                                 <img src="./assets/images/png/aia.png" alt="AIA Logo" className="xl:pb-[62px] pb-9 max-w-[66px]" />
                                 <img src="./assets/images/png/lowes.png" alt="Lowes Logo" className="xl:pb-12 pb-10 max-w-[92px]" />
