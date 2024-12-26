@@ -2,7 +2,7 @@ import React from 'react';
 
 const Analize = () => {
     return (
-        <section style={{ backgroundImage: `url(/assets/images/png/Analyze-bg.png)` }} className="mt-20 max-xl:mt-12 max-sm:mt-8 bg-cover bg-no-repeat bg-center pt-16 pb-20 xl:px-32 max-sm:py-12 relative">
+        <div style={{ backgroundImage: `url(/assets/images/png/Analyze-bg.png)` }} className="mt-20 max-xl:mt-12 max-sm:mt-8 bg-cover bg-no-repeat bg-center pt-16 pb-20 xl:px-32 max-sm:py-12 relative">
             <img
                 src="/assets/images/svg/analize.svg"
                 alt="img"
@@ -34,7 +34,7 @@ const Analize = () => {
                     </form>
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 

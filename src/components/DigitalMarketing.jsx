@@ -3,7 +3,7 @@ import { CARD_LIST } from "../utils/helper";
 const MarketingSection = () => {
 
     return (
-        <section className="xl:pt-[132px] pt-24 relative min-h-screen max-sm:pt-[65px]">
+        <div className="xl:pt-[132px] pt-24 relative min-h-screen max-sm:pt-[65px]">
             <img src="./assets/images/png/digital-bg.png" alt="Background"
                 className="absolute top-[32rem] max-lg:top-[28rem] max-sm:top-[23rem] w-full pointer-events-none"/>
             <div className="container max-w-[1140px] mx-auto">
@@ -47,7 +47,7 @@ const MarketingSection = () => {
                     ))}
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 
