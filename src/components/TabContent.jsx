@@ -3,33 +3,33 @@ const Tab = ({ activeTab }) => {
     switch (activeTab) {
         case "tab1":
             return (
-                <div style={{ backgroundImage:`url(./assets/images/png/tab-one-bg.png)`}} className="relative bg-cover !max-w-[1280px] bg-center sm:px-20 sm:py-16 px-4 py-6 bg-no-repeat">
+                <div style={{ backgroundImage:`url(./assets/images/png/tab-one-bg.png)`}} className="relative bg-cover max-sm:h-[720px] !max-w-[1280px] bg-center sm:px-20 sm:py-16 px-4 py-6 bg-no-repeat">
                     <div className="lg:flex justify-between">
                         <div className="lg:w-4/12">
                             <p className="uppercase text-white text-custom-7xl sohne leading-[70px] font-bold max-xl:text-4xl">
                                 The smartest minds in the industry </p>
                             <p className="text-3xl font-light text-left text-white pb-8 max-sm:pb-4 max-xl:text-2xl">
                                 Answer our questions and listen to our answers.</p>
-                            <p className="font-normal text-custom-xs text-left text-white pb-[98px] max-lg:pb-[57px] max-sm:text-xl">
+                            <p className="font-normal text-custom-xs text-left text-white pb-[98px] max-lg:pb-[57px] max-sm:pb-[14px] max-sm:text-xl">
                                 This is placeholder but can add more to the business of building, some epic fails (and how to avoid them), and everything building science.
                             </p>
-                            <div className="flex max-lg:pb-20">
-                                <a href="#" className="bg-red-500 flex px-[32px] py-[31px] text-white text-custom-xs"><img className="mr-[10px]" src="./assets/images/svg/subscribe.svg" alt="" />
+                            <div className="flex max-lg:pb-20 max-sm:pb-6 max-sm:w-full">
+                                <a href="#" className="bg-red-500 flex px-[32px] py-[31px] text-white text-custom-xs pointer-events-none max-sm:w-full max-sm:pl-[57px]"><img className="mr-[10px]" src="./assets/images/svg/subscribe.svg" alt="" />
                                     Subscribe to Podcast <span className="text-custom-xxs ml-1 mt-[10px]"> ▼</span>
                                 </a>
                             </div>
                         </div>
                         <div className="lg:w-2/12 max-lg:overflow-auto">
                             <div className="flex lg:flex-col items-center max-lg:gap-14">
-                                <img src="./assets/images/png/depot.png" alt="Depot Logo" className="xl:pb-20 pb-10 max-w-[66px]" />
-                                <img src="./assets/images/png/aia.png" alt="AIA Logo" className="xl:pb-[62px] pb-9 max-w-[66px]" />
-                                <img src="./assets/images/png/lowes.png" alt="Lowes Logo" className="xl:pb-12 pb-10 max-w-[92px]" />
-                                <img src="./assets/images/png/build.png" alt="Build Logo" className="xl:pb-[66px] pb-10 max-w-[102px]" />
-                                <img src="./assets/images/png/houzz.png" alt="Houzz Logo" className="max-w-[117px]" />
+                                <img src="./assets/images/png/depot.png" alt="Depot Logo" className="xl:pb-20 pb-10 max-w-[66px] pointer-events-none" />
+                                <img src="./assets/images/png/aia.png" alt="AIA Logo" className="xl:pb-[62px] pb-9 max-w-[66px] pointer-events-none" />
+                                <img src="./assets/images/png/lowes.png" alt="Lowes Logo" className="xl:pb-12 pb-10 max-w-[92px] pointer-events-none" />
+                                <img src="./assets/images/png/build.png" alt="Build Logo" className="xl:pb-[66px] pb-10 max-w-[102px] pointer-events-none" />
+                                <img src="./assets/images/png/houzz.png" alt="Houzz Logo" className="max-w-[117px] pointer-events-none" />
                             </div>
                         </div>
                         <div className="lg:w-5/12">
-                                <img src="./assets/images/png/tab-one-card.png" alt="Tab One Card" />
+                            <img className="pointer-events-none" src="./assets/images/png/tab-one-card.png" alt="Tab One Card" />
                         </div>
                     </div>
                 </div>
@@ -42,10 +42,10 @@ const Tab = ({ activeTab }) => {
                     <p className="text-3xl font-light text-left text-white ps-20 max-sm:text-2xl max-sm:ps-8">
                         Not hopes and prayers. </p>
                     <div className="max-w-[293px] absolute bottom-[10%] max-md:hidden block left-[-5%] max-xl:max-w-[206px] max-xl:left-[-1%] max-lg:max-w-[161px]">
-                        <img src="./assets/images/png/tab-two-yellow-circle.png" alt="circle" />
+                        <img className="pointer-events-none" src="./assets/images/png/tab-two-yellow-circle.png" alt="circle" />
                     </div>
                     <div className=" max-w-[189px] max-xl:max-w-[142px] absolute max-md:hidden block  top-[34%] right-[-5%] max-xl:right-[-1%] max-lg:top-[19%]">
-                        <img src="./assets/images/png/tab-two-green-circle.png" alt="circle" />
+                        <img className="pointer-events-none" src="./assets/images/png/tab-two-green-circle.png" alt="circle" />
                     </div>
                 </div>
             );
@@ -56,17 +56,17 @@ const Tab = ({ activeTab }) => {
                         <div className="lg:w-5/12">
                             <h2 className="text-custom-7xl max-md:text-5xl leading-[70px] sohne font-bold max-xl:text-6xl text-left pb-2 text-white uppercase">
                                 Project Radar </h2>
-                            <img src="./assets/images/png/tab-logo.png" alt="Tab Logo" className=" max-w-[72.86px]" />
+                            <img src="./assets/images/png/tab-logo.png" alt="Tab Logo" className=" max-w-[72.86px] pointer-events-none" />
                             <p className="text-3xl font-light text-left text-white leading-8 pt-28 max-xl:pt-16 max-sm:pt-6 pb-[14px]">
                                 Lorem ipsum what this product actually does. </p>
                             <p className="text-white text-custom-xs font-normal leading-5 max-w-[360px] max-xl:max-w-none">This is placeholder but can add more the business of building, some epic fails (and how to avoid them) and everything building science.</p>
                             <div className="flex mt-16 max-sm:mt-7 max-lg:pb-14">
-                                <a href="#" className="bg-yellow text-custom-xs font-semibold text-center py-8 px-8 flex gap-[10px]">
+                                <a href="#" className="bg-yellow text-custom-xs font-semibold text-center py-8 px-8 flex gap-[10px] pointer-events-none">
                                     Call to Action Somewhere<img src="./assets/images/svg/call-arrow.svg" alt="arrow" /></a>
                             </div>
                         </div>
                         <div className="lg:w-5/12 w-full">
-                                <img className="w-full" src="./assets/images/png/tab-three-card.png" alt="Tab Three Map" />
+                            <img className="w-full pointer-events-none" src="./assets/images/png/tab-three-card.png" alt="Tab Three Map" />
                         </div>
                     </div>
                 </div>
