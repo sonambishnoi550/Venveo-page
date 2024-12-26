@@ -48,7 +48,11 @@ module.exports = {
         lightgray: '#9dc9cc',
         lightblack: '#a6a6a6',
         yellow:'#D2F038',
-      }
+      },
+      backgroundImage: {
+        'tab-two': "url('/public/assets/images/png/tab-two-bg.png')",
+        'mobile-tab-two': "url('/public/assets/images/png/tab-two-mobile-bg.png')",
+      },
     },
   },
   plugins: [],
