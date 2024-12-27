@@ -29,6 +29,7 @@ module.exports = {
 
       fontSize: {
         'custom-xxs': '6px',
+        'custom-sx': '13px',
         'custom-xs': '15px',
         'custom-2xl': '22px',
         'custom-3xl': '40px',
