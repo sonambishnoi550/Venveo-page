@@ -6,6 +6,7 @@ import DigitalMarketing from './components/DigitalMarketing'
 import Analize from './components/Analize'
 import TabContent from './components/TabContent'
 import ActualResult from './components/ActualResult'
+import LearnFrom from './components/LearnFrom'
 const App = () => {
   return (
     <div>
@@ -15,7 +16,8 @@ const App = () => {
       <DigitalMarketing/>
       <Analize />
       <TabContent />
-      <ActualResult/>
+      <ActualResult />
+      <LearnFrom/>
     </div>
   )
 }
