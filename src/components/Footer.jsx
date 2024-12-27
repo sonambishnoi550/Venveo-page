@@ -15,7 +15,7 @@ function Footer() {
           </ul>
         </div>
         <div className="xl:-ml-[20px] max-sm:pb-16">
-          <h3 className="font-medium mb-4 text-xs leading-[13px]">WHO WE HELP</h3>
+          <h3 className="font-medium mb-4 text-xs leading-[13px] max-sm:text-yellow ">WHO WE HELP</h3>
           <ul className="space-y-2">
             <li className="font-maisonLight text-custom-xs leading-[30px]">Digital Advertising</li>
             <li className="font-maisonLight text-custom-xs leading-[30px]">Search Engine Ranking</li>
@@ -25,7 +25,7 @@ function Footer() {
           </ul>
         </div>
         <div className="xl:-ml-[20px] max-sm:pb-16">
-          <h3 className="font-medium mb-4 text-xs leading-[13px]">WHY VENVEO</h3>
+          <h3 className="font-medium mb-4 text-xs leading-[13px] max-sm:text-yellow ">WHY VENVEO</h3>
           <ul className="space-y-2">
             <li className="font-maisonLight text-custom-xs leading-[30px]">About Us</li>
             <li className="font-maisonLight text-custom-xs leading-[30px]">Careers</li>
@@ -34,8 +34,8 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="xl:-ml-[90px] max-sm:pb-16">
-          <h3 className="font-medium mb-4 text-xs leading-[13px]">RESOURCES</h3>
+        <div className="xl:-ml-[90px] max-sm:pb-16 max-lg:pt-10">
+          <h3 className="font-medium mb-4 text-xs leading-[13px] max-sm:text-yellow ">RESOURCES</h3>
           <ul className="space-y-2">
             <li className="font-maisonLight text-custom-xs leading-[30px]">Articles</li>
             <li className="font-maisonLight text-custom-xs leading-[30px]">News</li>
@@ -45,7 +45,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="text-center md:text-left xl:-ml-[195px]">
+        <div className="text-center md:text-left xl:-ml-[195px]  max-xl:pt-10">
           <h3 className="mb-4 text-3xl font-maisonLight">Get weekly data — and insights.</h3>
           <form className="border-2 border-white mt-[30px] text-white rounded-[50px] text-center py-4 sm:py-5 px-7 flex max-w-[448px] sm:mx-auto mx-5 justify-between">
             <input
@@ -109,19 +109,19 @@ function Footer() {
           </div>
           <div className="flex justify-center sm:justify-end space-x-[34px] pt-[31px]">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <img src="./assets/images/svg/facebook.svg" alt="Facebook" className="w-6 h-6" />
+              <img src="./assets/images/svg/facebook.svg" alt="Facebook" className="w-6 h-6 hover:scale-125 transition-all duration-700" />
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <img src="./assets/images/svg/instagram.svg" alt="Instagram" className="w-6 h-6" />
+              <img src="./assets/images/svg/instagram.svg" alt="Instagram" className="w-6 h-6 hover:scale-125 transition-all duration-700" />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <img src="./assets/images/svg/twitter.svg" alt="Twitter" className="w-6 h-6" />
+              <img src="./assets/images/svg/twitter.svg" alt="Twitter" className="w-6 h-6 hover:scale-125 transition-all duration-700" />
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <img src="./assets/images/svg/linkdin.svg" alt="LinkedIn" className="w-6 h-6" />
+              <img src="./assets/images/svg/linkdin.svg" alt="LinkedIn" className="w-6 h-6 hover:scale-125 transition-all duration-700" />
             </a>
             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-              <img src="./assets/images/svg/youtube.svg" alt="YouTube" className="w-6 h-6" />
+              <img src="./assets/images/svg/youtube.svg" alt="YouTube" className="w-6 h-6 hover:scale-125 transition-all duration-700" />
             </a>
           </div>
         </div>

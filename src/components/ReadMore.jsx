@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import { MARKETING_DATA, MARKETING_MOBILE_DATA } from '../utils/helper'
-// import Icon from '../utils/icons'
 
 const ReadMore = () => {
     const [showAll, setShowAll] = useState(false);
 
     return (
-        <div className="max-w-[1920px] mx-auto mt-10 w-full sm:pt-[29px] pt-2 pb-[62px]">
+        <div className="max-w-[1920px] mx-auto w-full sm:pt-[29px] pt-2 pb-[62px] max-sm:pb-[30px]">
             <div className="sm:flex hidden max-xl:flex-wrap justify-between gap-6 max-xl:justify-center max-w-[1920px] 2xl:container mx-auto w-full">
                 {MARKETING_DATA.map((data, index) => (
                     <div
@@ -43,16 +42,16 @@ const ReadMore = () => {
                     {MARKETING_MOBILE_DATA.slice(0, showAll ? MARKETING_MOBILE_DATA.length : 1).map((data, index) => (
                         <div
                             key={index}
-                            className={`w-full h-[240px] p-[16px_0_20px_113px] bg-cover bg-no-repeat bg-center ${data.bgImage}`}
+                            className={`w-full h-[240px] p-[23px_0_20px_113px] bg-cover bg-no-repeat bg-center ${data.bgImage}`}
                         >
                             <div className="w-full bg-white p-[29px_0_26px_25px] shadow-lg rounded-[25px] rounded-tr-none rounded-br-none">
-                                <p className="text-green text-custom-lg leading-5 font-semibold uppercase pb-[15px]">
+                                <p className="text-green text-custom-xs leading-5 font-semibold uppercase pb-[15px] max-sm:pb-[6px]">
                                     {data.title}
                                 </p>
-                                <p className="text-black text-2xl max-w-[201px] leading-custom-5xl font-maisonLight font-light pb-[19px]">
+                                <p className="text-black text-2xl max-w-[201px] leading-[26px] font-maisonLight font-light pb-[19px]">
                                     {data.subtitle}
                                 </p>
-                                <button className="font-semibold text-custom-lg leading-5 text-nowrap max-w-[164px] flex gap-[6px] items-center transition-all duration-500 group">
+                                <button className="font-semibold text-custom-xs leading-5 text-nowrap max-w-[164px] flex gap-[6px] items-center transition-all duration-500 group">
                                     {data.buttonText}
                                     <img className="ml-2" src="./assets/images/svg/read-arrow.svg" alt="arrow" />
                                 </button>
@@ -65,7 +64,7 @@ const ReadMore = () => {
                         className="font-semibold text-custom-lg leading-custom-lg"
                         onClick={() => setShowAll(!showAll)}
                     >
-                        {showAll ? "Show Less Solutions ▲" : "Show More Solutions ▼"}
+                        {showAll ? "Show More Resources  ▲" : "Show More Resources  ▼"}
                     </button>
                 </div>
             </div>

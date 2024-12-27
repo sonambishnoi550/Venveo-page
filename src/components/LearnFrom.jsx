@@ -2,7 +2,7 @@ import React from "react";
 
 const LearnFrom = () => {
     return (
-        <div className="relative sm:pt-20 pt-8 pb-16">
+        <div className="relative sm:pt-20 pt-8 pb-2">
             <img
                 src="./assets/images/png/digital-bg.png"
                 alt="Background"

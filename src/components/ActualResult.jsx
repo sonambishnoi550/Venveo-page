@@ -8,10 +8,10 @@ import { ACTUAL_RESULTS } from '../utils/helper';
 const ActualResult = () => {
     return (
         <div className="bg-actual bg-no-repeat bg-center bg-cover text-white pt-[67px] lg:pt-[119px] pb-6 sm:pb-8 mt-10 relative">
-            <p className="max-sm:px-4 font-light text-3xl leading-custom-6xl text-white text-center font-maisonLight">
+            <p className="max-sm:px-4 font-light text-3xl leading-[70px] text-white text-center font-maisonLight">
                 Actual businesses.
             </p>
-            <h2 className='font-bold font-sohne text-custom-7xl uppercase text-center leading-[70px]'>Actual results.</h2>
+            <h2 className='font-bold font-sohne text-custom-7xl max-sm:text-6xl uppercase text-center leading-[70px]'>Actual results.</h2>
             <p className="sm:mt-[46px] mt-[22px] max-sm:px-4 md:mb-[81px] mb-[39px] text-custom-lg leading-5 font-normal text-center font-maisonMono">
                 Businesses trust Venveo to power growth.
             </p>
