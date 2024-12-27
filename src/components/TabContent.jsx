@@ -6,7 +6,7 @@ const Tab = ({ activeTab }) => {
                 <div style={{ backgroundImage:`url(./assets/images/png/tab-one-bg.png)`}} className="relative bg-cover !max-w-[1280px] bg-center sm:px-20 sm:py-16 px-4 py-6 bg-no-repeat">
                     <div className="lg:flex justify-between">
                         <div className="lg:w-4/12">
-                            <p className="uppercase text-white text-custom-7xl sohne leading-[70px] font-bold max-xl:text-4xl">
+                            <p className="uppercase text-white text-custom-7xl font-sohne leading-[70px] font-bold max-xl:text-4xl">
                                 The smartest minds in the industry </p>
                             <p className="text-3xl font-light text-left text-white pb-8 max-sm:pb-4 max-xl:text-2xl font-maisonLight">
                                 Answer our questions and listen to our answers.</p>
@@ -37,7 +37,7 @@ const Tab = ({ activeTab }) => {
         case "tab2":
             return (
                 <div  className="relative bg-cover max-sm:bg-mobile-tab-two bg-no-repeat md:bg-tab-two bg-center pt-20 max-w-[1280px] max-xl:pt-12 max-sm:pt-5 h-[720px]">
-                    <h2 className="text-custom-7xl max-md:text-custom-4xl font-bold leading-[70px] text-left text-white ps-20 max-sm:ps-8 sohne">
+                    <h2 className="text-custom-7xl max-md:text-custom-4xl font-bold leading-[70px] text-left text-white ps-20 max-sm:ps-8 font-sohne">
                         Proven Results </h2>
                     <p className="text-3xl font-light text-left text-white ps-20 max-sm:text-2xl max-sm:ps-8 font-maisonLight">
                         Not hopes and prayers. </p>
@@ -54,7 +54,7 @@ const Tab = ({ activeTab }) => {
                 <div style={{ backgroundImage: `url(./assets/images/png/tab-three-bg.png)` }} className="max-w-[1280px] px-[79px] pt-[75px] max-lg:pt-[45px] h-[720px] max-xl:h-[620px] max-lg:h-[720px] max-md:px-[32px]">
                     <div className="lg:flex justify-between">
                         <div className="lg:w-5/12">
-                            <h2 className="text-custom-7xl max-md:text-5xl leading-[70px] sohne font-bold max-xl:text-6xl text-left pb-2 text-white uppercase">
+                            <h2 className="text-custom-7xl max-md:text-5xl leading-[70px] font-sohne font-bold max-xl:text-6xl text-left pb-2 text-white uppercase">
                                 Project Radar </h2>
                             <img src="./assets/images/png/tab-logo.png" alt="Tab Logo" className=" max-w-[72.86px] pointer-events-none" />
                             <p className="text-3xl font-light text-left text-white leading-8 pt-28 max-xl:pt-16 max-sm:pt-6 pb-[14px] font-maisonLight">
@@ -82,7 +82,7 @@ const TabsComponent = () => {
     return (
         <section className="py-14 flex justify-center">
             <div className="container max-w-[1280px] mx-auto">
-                <h2 className="text-custom-7xl font-bold text-center uppercase sohne leading-[70px] max-sm:text-6xl">The Growth Partner</h2>
+                <h2 className="text-custom-7xl font-bold text-center uppercase font-sohne leading-[70px] max-sm:text-6xl">The Growth Partner</h2>
                 <p className="text-3xl font-light text-center pb-[43px] max-sm:pb-[19px] max-sm:text-2xl font-maisonLight">you’ve been looking for.</p>
                 <p className="text-custom-xs font-normal text-center pb-[105px] max-sm:pb-[56px] font-maisonMono">Businesses trust Venveo to power growth.</p>
                 <div className="nav-tabs">

@@ -5,10 +5,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 @font-face {
-    font-family: 'Söhne Schmal';
-    src: url('../public/assets/fonts/TestSöhneSchmal-Dreiviertelfett.otf') format('truetype');
-    font-weight: 700;
-}
+    font-family: "Sohne Schmal";
+    src:url('../public/assets/fonts/TestSöhneSchmal-Dreiviertelfett.woff2') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Sohne Schmal";
+    src:url('../public/assets/fonts/TestSöhneSchmal-Fett.woff2') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
  @font-face {
      font-family: "MaisonNeueDemi";
      src: url('../public/assets/fonts/MaisonNeue-Demi.ttf') format("truetype");
@@ -33,9 +43,9 @@
      font-family: "MaisonNeueLight";
      src: url('../public/assets/fonts/MaisonNeue-Light.ttf') format("truetype");
  }
-.sohne {
+/* .sohne {
     font-family: 'Söhne Schmal', sans-serif;
-}
+} */
 body {
     font-family: 'Maison Neue', sans-serif;
 }

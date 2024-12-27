@@ -8,7 +8,7 @@ const Client = () => {
                 <h2 className="text-3xl max-sm:text-2xl text-center leading-8 lg:pt-24  md:pt-20 pt-9 font-maisonLight">
                     Driving digital revenue for over
                 </h2>
-                <h2 className="text-custom-7xl max-md:text-6xl text-center leading-[70px] font-bold pt-2 sohne uppercase max-sm:pb-12">
+                <h2 className="text-custom-7xl max-md:text-6xl text-center leading-[70px] font-bold pt-2 font-sohne uppercase max-sm:pb-12">
                     1,400+ satisfied clients.
                 </h2>
                 <img className='2xl:pb-20 pb-12 pl-[400px] max-xl:pl-[197px] max-lg:pl-[97px] max-sm:hidden pt-2 pointer-events-none' src="./assets/images/svg/red-line.svg" alt="line" />
@@ -37,9 +37,9 @@ const Client = () => {
                             <div className="flex gap-9 pt-3 pb-8 pl-4">
                                 {card.stats.map((stat, index) => (
                                     <div key={index}>
-                                        <p className="text-black leading-10 text-custom-4xl max-sm:text-custom-3xl font-bold sohne"> {stat.value}
+                                        <p className="text-black leading-10 text-custom-4xl max-sm:text-custom-3xl font-bold font-sohne"> {stat.value}
                                         </p>
-                                        <p className="text-black leading-4 text-custom-xs font-light pt-1 whitespace-nowrap font-medium">
+                                        <p className="text-black leading-4 text-custom-xs pt-1 whitespace-nowrap font-medium">
                                             {stat.label} </p>
                                     </div>))}
                             </div>

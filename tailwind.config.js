@@ -17,7 +17,7 @@ module.exports = {
       },
   
       fontFamily: {
-        'Söhne': "'testSöhneSchmal', sans-serif",
+        sohne: ["Sohne Schmal", "sans-serif"],
         'space': "'space mono', sans-serif",
         'MaisonNeue': "'Maison Neue',sans-serif",
         'maisonLight': "'MaisonNeueLight',sans-serif",
