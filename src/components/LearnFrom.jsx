@@ -38,7 +38,7 @@ const LearnFrom = () => {
                 />
                 <img className="relative max-md:block hidden" src="./assets/images/png/mobile-learn.png" alt="learn" />
                
-                <div className="bg-white pt-[35px] pb-[31px] px-7 absolute bottom-[10%] left-[8%] max-md:left-[5%] rounded-[25px] max-lg:pt-[30px] max-lg:pb-[26px] max-lg:px-[26px] max-lg:max-w-[339px]">
+                <div className="bg-white pt-[35px] pb-[31px] px-7 absolute bottom-[10%] left-[15%] max-md:left-[5%] rounded-[25px] max-lg:pt-[30px] max-lg:pb-[26px] max-lg:px-[26px] max-lg:max-w-[339px]">
                     <p className="text-custom-xs font-semibold leading-none text-left text-sky pb-4 mainson_Neue uppercase">
                         Guides
                     </p>

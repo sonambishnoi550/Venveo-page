@@ -7,6 +7,7 @@ import Analize from './components/Analize'
 import TabContent from './components/TabContent'
 import ActualResult from './components/ActualResult'
 import LearnFrom from './components/LearnFrom'
+import Ready from './components/Ready'
 const App = () => {
   return (
     <div>
@@ -17,7 +18,8 @@ const App = () => {
       <Analize />
       <TabContent />
       <ActualResult />
-      <LearnFrom/>
+      <LearnFrom />
+      <Ready/>
     </div>
   )
 }
