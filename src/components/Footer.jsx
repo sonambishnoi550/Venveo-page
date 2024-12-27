@@ -3,9 +3,9 @@ import React from "react";
 function Footer() {
   return (
     <footer className="bg-green text-white pt-[90px] pb-[104px]">
-      <div className="container max-w-[1340px] mx-auto px-6 grid grid-cols-1 md:grid-cols-5">
-        <div>
-          <h3 className="font-medium text-xs leading-[13px] mb-4">HOW WE HELP</h3>
+      <div className="container max-w-[1340px] mx-auto grid grid-cols-1 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 max-sm:gap-4">
+        <div className="max-sm:pb-16">
+          <h3 className="font-medium text-xs leading-[13px] mb-4 max-sm:text-yellow ">HOW WE HELP</h3>
           <ul className="space-y-2">
             <li className="font-maisonLight text-custom-xs leading-[30px]">Drive More Awareness</li>
             <li className="font-maisonLight text-custom-xs leading-[30px]">Get More Customers</li>
@@ -14,8 +14,7 @@ function Footer() {
             <li className="font-maisonLight text-custom-xs leading-[30px]">Track Results</li>
           </ul>
         </div>
-
-        <div className="-ml-[20px]">
+        <div className="xl:-ml-[20px] max-sm:pb-16">
           <h3 className="font-medium mb-4 text-xs leading-[13px]">WHO WE HELP</h3>
           <ul className="space-y-2">
             <li className="font-maisonLight text-custom-xs leading-[30px]">Digital Advertising</li>
@@ -25,9 +24,7 @@ function Footer() {
             <li className="font-maisonLight text-custom-xs leading-[30px]">Email Marketing</li>
           </ul>
         </div>
-
-
-        <div className="-ml-[20px]">
+        <div className="xl:-ml-[20px] max-sm:pb-16">
           <h3 className="font-medium mb-4 text-xs leading-[13px]">WHY VENVEO</h3>
           <ul className="space-y-2">
             <li className="font-maisonLight text-custom-xs leading-[30px]">About Us</li>
@@ -37,7 +34,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="-ml-[90px]">
+        <div className="xl:-ml-[90px] max-sm:pb-16">
           <h3 className="font-medium mb-4 text-xs leading-[13px]">RESOURCES</h3>
           <ul className="space-y-2">
             <li className="font-maisonLight text-custom-xs leading-[30px]">Articles</li>
@@ -48,7 +45,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="text-center md:text-left -ml-[195px]">
+        <div className="text-center md:text-left xl:-ml-[195px]">
           <h3 className="mb-4 text-3xl font-maisonLight">Get weekly data — and insights.</h3>
           <form className="border-2 border-white mt-[30px] text-white rounded-[50px] text-center py-4 sm:py-5 px-7 flex max-w-[448px] sm:mx-auto mx-5 justify-between">
             <input

@@ -9,6 +9,7 @@ import ActualResult from './components/ActualResult'
 import LearnFrom from './components/LearnFrom'
 import Ready from './components/Ready'
 import Footer from './components/Footer'
+import ReadMore from './components/ReadMore'
 const App = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const App = () => {
       <TabContent />
       <ActualResult />
       <LearnFrom />
+      <ReadMore/>
       <Ready />
       <Footer/>
     </div>

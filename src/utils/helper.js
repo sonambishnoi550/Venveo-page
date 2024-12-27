@@ -136,8 +136,6 @@ export const CLIENT_CARD = [
     },
 ];
 export const ACTUAL_RESULTS = [
-
-
     {
         description: "Venveo helped us achieve growth beyond expectations with an excellent brand strategy.",
         name: "Sarah Johnson",
@@ -170,4 +168,59 @@ export const ACTUAL_RESULTS = [
         videoThumbnail: "/assets/images/png/men-two-image.webp",
     },
 ];
+export const MARKETING_DATA = [
+    {
+        title: "multi-channel marketing",
+        subtitle: "How to Get Your Product into Lowe’s",
+        description: "Understanding the process and maximize the opportunities",
+        buttonText: "Read More",
+        bgImage: "bg-marketing-one",
+    },
+
+    {
+        title: "lead-gen",
+        subtitle: "Get Your Sales Team Ready for Digital Leads",
+        description:
+            "Unlock substantial business growth by enhancing collaboration skills and digital marketing expertise",
+        bgImage: "bg-marketing-two",
+        buttonText: "Read More",
+
+    },
+
+    {
+        title: "ecommerce",
+        subtitle: "How to Sell Building Materials Online",
+        description:
+            "Explore how selling building materials online opens up wider audiences, efficient sales, and insightful data.",
+        bgImage: "bg-marketing-three",
+        buttonText: "Read More",
+
+    },
+];
+
+export const MARKETING_MOBILE_DATA = [
+    {
+        title: "multi-channel marketing",
+        subtitle: "How to Get Your Product into Lowe’s",
+        buttonText: "Read More",
+        bgImage: "bg-mobile-marketing-one",
+    },
+
+    {
+        title: "lead-gen",
+        subtitle: "Get Your Sales Team Ready for Digital Leads",
+        bgImage: "bg-marketing-mobile-two",
+        buttonText: "Read More",
+        bgImage: "bg-mobile-marketing-two",
+    },
+
+    {
+        title: "ecommerce",
+        subtitle: "How to Sell Building Materials Online",
+        bgImage: "bg-marketing-mobile-three",
+        buttonText: "Read More",
+        bgImage: "bg-mobile-marketing-three",
+    },
+];
+
 

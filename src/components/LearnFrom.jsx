@@ -20,16 +20,7 @@ const LearnFrom = () => {
                     className="text-xmd font-semibold leading-none text-center flex justify-center lg:pb-20 pb-10 mainson_Neue"
                 >
                     See All
-                    <svg
-                        className="ml-2"
-                        width="10"
-                        height="10"
-                        viewBox="0 0 10 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path d="M10 5.00343L0 0V10L10 5.00343Z" fill="#231F20" />
-                    </svg>
+                   <img className="ml-2" src="./assets/images/svg/read-arrow.svg" alt="arrow" />
                 </a>
                 <img
                     src="./assets/images/png/learn-image.png"
@@ -42,24 +33,15 @@ const LearnFrom = () => {
                     <p className="text-custom-xs font-semibold leading-none text-left text-sky pb-4 mainson_Neue uppercase">
                         Guides
                     </p>
-                    <p className="font-light text-3xl leading-none text-left mainson_Neue max-w-[325px] max-lg:text-2xl max-lg:max-w-[290px]">
-                        Marketing to Contractors and Installers: The Ultimate Guide
+                    <p className="font-light text-3xl leading-[30px] text-left font-maisonLight max-w-[325px] max-lg:text-2xl max-lg:max-w-[290px]">
+                        Marketing to Contractors and Installers:<span className="xl:block"></span> The Ultimate Guide
                     </p>
                     <p className="text-xmd text-custom-xs font-normal leading-none text-left pt-4 font-maisonMono max-w-[315px]">
                         Understanding the process and maximize the opportunities
                     </p>
-                    <a href="#" className="flex items-center pt-4 mainson_Neue text-custom-xs">
-                        Learn More
-                        <svg
-                            className="ml-2"
-                            width="10"
-                            height="10"
-                            viewBox="0 0 10 10"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path d="M10 5.00343L0 0V10L10 5.00343Z" fill="#231F20" />
-                        </svg>
+                    <a href="#" className="flex items-center pt-4 font-semibold text-custom-xs">
+                        Read More
+                        <img className="ml-2" src="./assets/images/svg/read-arrow.svg" alt="arrow" />
                     </a>
                 </div>
             </div>
