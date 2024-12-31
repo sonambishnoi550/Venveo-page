@@ -26,10 +26,10 @@ export const DROPDOWN_LIST = [
 ];
 export const FEATURE_LIST = [
     { Img: "./assets/images/svg/wsg.svg", alt: "wsg", width: "49.53px" },
-    { Img: "./assets/images/png/entrepreneur.png", alt: "entrepreneur", width: "183.46px" },
-    { Img: "./assets/images/png/fortune.png", alt: "fortune", width: "116px" },
-    { Img: "./assets/images/png/forbes.png", alt: "forbes", width: "103.12px" },
-    { Img: "./assets/images/png/inc.png", alt: "inc", width: "81.02px" },
+    { Img: "./assets/images/webp/entrepreneur.webp", alt: "entrepreneur", width: "183.46px" },
+    { Img: "./assets/images/webp/fortune.webp", alt: "fortune", width: "116px" },
+    { Img: "./assets/images/webp/forbes.webp", alt: "forbes", width: "103.12px" },
+    { Img: "./assets/images/webp/inc.webp", alt: "inc", width: "81.02px" },
 ];
 
 export const CARD_LIST = [
@@ -90,10 +90,10 @@ export const CARD_LIST = [
 export const CLIENT_CARD = [
     {
         id: 1,
-        backgroundImage: "./assets/images/png/client-card-one.png",
+        backgroundImage: "./assets/images/webp/client-card-one.webp",
         buttonLabel: "Education Company",
         buttonPosition: { top: "3%", left: "13%" },
-        logo: "./assets/images/png/amber-book.png",
+        logo: "./assets/images/webp/amber-book.webp",
         logoAlt: "Amber-Book",
         logoWidth: "131px",
         description: "Driving digital revenue for over 1,000+ satisfied clients.",
@@ -106,10 +106,10 @@ export const CLIENT_CARD = [
     },
     {
         id: 2,
-        backgroundImage: "./assets/images/png/client-card-two.png",
+        backgroundImage: "./assets/images/webp/client-card-two.webp",
         buttonLabel: "HVAC Marketing" ,
         buttonPosition: { top: "5%", left: "15%" },
-        logo: "./assets/images/png/farnswort.png",
+        logo: "./assets/images/webp/farnswort.webp",
         logoAlt: "Farnsworth",
         logoWidth: "149.73px",
         description: "Driving digital revenue for over 1,000+ satisfied clients.",
@@ -122,8 +122,8 @@ export const CLIENT_CARD = [
     },
     {
         id: 3,
-        backgroundImage: "./assets/images/png/client-card-three.png",
-        logo: "./assets/images/png/us.png",
+        backgroundImage: "./assets/images/webp/client-card-three.webp",
+        logo: "./assets/images/webp/us.webp",
         logoAlt: "US",
         logoWidth: "49px",
         description: "Driving digital revenue for over 1,000+ satisfied clients.",
@@ -140,32 +140,32 @@ export const ACTUAL_RESULTS = [
         description: "Venveo helped us achieve growth beyond expectations with an excellent brand strategy.",
         name: "Sarah Johnson",
         title: "Marketing Director at BuildPro",
-        companyLogo: "./assets/images/png/us.png",
-        videoThumbnail: "/assets/images/png/men-two-image.webp",
+        companyLogo: "./assets/images/webp/us.webp",
+        videoThumbnail: "./assets/images/webp/men-two-image.webp",
     },
 
     {
         description: "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging, and cultural standpoint.",
         name: "Jon Vaughan",
         title: "Regional VP-SE at US LBM",
-        companyLogo: "./assets/images/png/us.png",
-        videoThumbnail: "/assets/images/png/men-one-image.webp",
+        companyLogo: "./assets/images/webp/us.webp",
+        videoThumbnail: "./assets/images/webp/men-one-image.webp",
     },
 
     {
         description: "Their innovative ideas and flawless execution drove our success to new heights.",
         name: "Michael Lee",
         title: "CEO at Constructive Works",
-        companyLogo: "./assets/images/png/us.png",
-        videoThumbnail: "/assets/images/png/men-three-image.png",
+        companyLogo: ".//assets/images/webp/us.webp",
+        videoThumbnail: "./assets/images/webp/men-three-image.webp",
     },
 
     {
         description: "Their innovative ideas and flawless execution drove our success to new heights.",
         name: "Michael Lee",
         title: "CEO at Constructive Works",
-        companyLogo: "./assets/images/png/us.png",
-        videoThumbnail: "/assets/images/png/men-two-image.webp",
+        companyLogo: "./assets/images/webp/us.webp",
+        videoThumbnail: "./assets/images/webp/men-two-image.webp",
     },
 ];
 export const MARKETING_DATA = [

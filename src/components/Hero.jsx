@@ -3,7 +3,7 @@ import Header from '../components/Header'
 
 const Hero = () => {
     return (
-        <div style={{ backgroundImage: `url(./assets/images/png/hero-bg.png)` }} className='bg-cover bg-no-repeat h-[869px] lg:bg-[100%_100%] max-sm:h-[539px] mx-w-[1440px] max-lg:pb-16 max-sm:pb-10'>
+        <div style={{ backgroundImage: `url(./assets/images/webp/hero-bg.webp)` }} className='bg-cover bg-no-repeat h-[869px] lg:bg-[100%_100%] max-sm:h-[539px] mx-w-[1440px] max-lg:pb-16 max-sm:pb-10'>
             <Header />
             <div className="container">
                 <h1 className='pt-[79px] max-sm:pt-[43px] font-sohne text-custom-9xl xl:leading-[104px] max-xl:text-custom-8xl !font-bold leading-[97%] max-md:text-custom-5xl uppercase text-white max-w-[822px] mx-auto text-center'>Make marketing
@@ -25,8 +25,8 @@ const Hero = () => {
                     </button>
                 </form>
 
-                <img className='pt-[66px] md:block hidden pointer-events-none pb-10 max-w-[924px] mx-auto max-lg:max-w-[697px]' src="./assets/images/png/hero-image.png" alt="work" />
-                <img className='pt-12 max-md:block hidden pointer-events-none pb-10' src="./assets/images/png/hero-work-image.png" alt="work" />
+                <img className='pt-[66px] md:block hidden pointer-events-none pb-10 max-w-[924px] mx-auto max-lg:max-w-[697px]' src="./assets/images/webp/hero-image.webp" alt="work" />
+                <img className='pt-12 max-md:block hidden pointer-events-none pb-10' src="./assets/images/webp/hero-work-image.webp" alt="work" />
             </div>
         </div>
     )

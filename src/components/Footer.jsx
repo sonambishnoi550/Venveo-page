@@ -67,7 +67,7 @@ function Footer() {
         <div className="sm:w-1/3 w-full mb-6 sm:mb-0">
           <a href="#">
             <img
-              src="./assets/images/png/footer-logo.png" 
+              src="./assets/images/webp/footer-logo.webp" 
               alt="Venveo Logo"
               className="mx-auto sm:mx-0 mb-[22px] max-w-[44.8px]"
             />

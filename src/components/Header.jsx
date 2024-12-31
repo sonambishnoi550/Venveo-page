@@ -13,7 +13,7 @@ const Header = () => {
         <header>
             <nav className="h-[80px] max-w-[1440px] mx-auto">
                 <div className="flex justify-between items-center max-lg:px-4 md:pl-14 lg:-mt-7">
-                    <a href="/"><img src="./assets/images/png/header-logo.png" alt="venveo-logo-img"
+                    <a href="/"><img src="./assets/images/webp/header-logo.webp" alt="venveo-logo-img"
                         className="w-[59px] max-sm:w-[42px] md:h-[90px] mt-12 max-md:mt-8 max-sm:mt-4 max-xl:mt-8"/></a>
                     <button className="flex flex-col gap-2 cursor-pointer lg:hidden relative z-20" onClick={() => setIsMenuOpen(!isMenuOpen)} >
                         <span className={`w-9 h-[2px] bg-white transition-transform ${isMenuOpen ? "rotate-45 translate-y-2" : "" }`} ></span>

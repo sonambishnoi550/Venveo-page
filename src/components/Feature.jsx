@@ -39,7 +39,7 @@ const Feature = () => {
                         <img key={index} src={img.Img} alt={img.alt} style={{ width: img.width, }} className=" pointer-events-none"/> ))}
                 </div>
             </div>
-            <img src="./assets/images/png/feature-line.png" alt="line-image" className="mx-auto w-full" />
+            <img src="./assets/images/webp/feature-line.webp" alt="line-image" className="mx-auto w-full" />
         </div>
     );
 };

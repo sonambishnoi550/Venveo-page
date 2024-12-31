@@ -4,7 +4,7 @@ const MarketingSection = () => {
 
     return (
         <div className="xl:pt-[132px] pt-24 relative min-h-screen max-sm:pt-[65px]">
-            <img src="./assets/images/png/digital-bg.png" alt="Background"
+            <img src="./assets/images/webp/digital-bg.webp" alt="Background"
                 className="absolute top-[32rem] max-lg:top-[28rem] max-sm:top-[23rem] w-full pointer-events-none"/>
             <div className="container max-w-[1140px] mx-auto">
                 <p className="text-3xl font-light leading-8 text-center font-maisonLight"> Problems we solve.</p>

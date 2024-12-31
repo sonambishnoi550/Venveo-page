@@ -4,7 +4,7 @@ const LearnFrom = () => {
     return (
         <div className="relative sm:pt-20 pt-8 pb-2">
             <img
-                src="./assets/images/png/digital-bg.png"
+                src="./assets/images/webp/digital-bg.webp"
                 alt="Background"
                 className="absolute top-[40%] max-sm:hidden block"
             />
@@ -23,11 +23,11 @@ const LearnFrom = () => {
                    <img className="ml-2" src="./assets/images/svg/read-arrow.svg" alt="arrow" />
                 </a>
                 <img
-                    src="./assets/images/png/learn-image.png"
+                    src="./assets/images/webp/learn-image.webp"
                     alt="Section Background"
                     className="relative md:block hidden"
                 />
-                <img className="relative max-md:block hidden" src="./assets/images/png/mobile-learn.png" alt="learn" />
+                <img className="relative max-md:block hidden" src="./assets/images/webp/mobile-learn.webp" alt="learn" />
                
                 <div className="bg-white pt-[35px] pb-[31px] px-7 absolute bottom-[10%] left-[15%] max-md:left-[5%] rounded-[25px] max-lg:pt-[30px] max-lg:pb-[26px] max-lg:px-[26px] max-lg:max-w-[339px]">
                     <p className="text-custom-xs font-semibold leading-none text-left text-sky pb-4 mainson_Neue uppercase">
