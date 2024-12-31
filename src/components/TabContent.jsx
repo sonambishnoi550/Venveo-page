@@ -36,7 +36,7 @@ const Tab = ({ activeTab }) => {
             );
         case "tab2":
             return (
-                <div style={{ backgroundImage: `url(./assets/images/webp/tab-two-bg.webp)` }}  className="relative bg-cover max-sm:bg-mobile-tab-two bg-no-repeat md:bg-tab-two bg-center pt-20 max-w-[1280px] max-xl:pt-12 max-sm:pt-5 h-[720px]">
+                <div style={{ backgroundImage: `url(./assets/images/webp/tab-two-bg.webp)` }}  className="relative bg-cover max-sm:!bg-mobile-tab-two bg-no-repeat md:bg-tab-two bg-center pt-20 max-w-[1280px] max-xl:pt-12 max-sm:pt-5 h-[720px]">
                     <h2 className="text-custom-7xl max-md:text-custom-4xl font-bold leading-[70px] text-left text-white ps-20 max-sm:ps-8 font-sohne">
                         Proven Results </h2>
                     <p className="text-3xl font-light text-left text-white ps-20 max-sm:text-2xl max-sm:ps-8 font-maisonLight">
