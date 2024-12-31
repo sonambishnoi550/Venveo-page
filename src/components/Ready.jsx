@@ -3,7 +3,7 @@ import React from "react";
 const Ready = () => {
   return (
     <section  
-      className="bg-ready lg:py-[66px] pt-[56px] pb-[54px] bg-center bg-no-repeat bg-cover"
+      className="bg-ready lg:pt-[66px] lg:pb-[60px] pt-[56px] pb-[54px] bg-center bg-no-repeat bg-cover"
     >
       <div className="container">
         <div className="lg:flex justify-center">

@@ -24,9 +24,7 @@ module.exports = {
         'maisonMedium': "'MaisonNeueMedium',sans-serif",
         'maisonDemi': "'MaisonNeueDemi',sans-serif",
         'maisonMono': "'MaisonNeueMono',sans-serif",
-
       },
-
       fontSize: {
         'custom-xxs': '6px',
         'custom-sx': '13px',
@@ -38,7 +36,6 @@ module.exports = {
         'custom-7xl': '80px',
         'custom-8xl': '100px',
         'custom-9xl': '120px',
-
       },
       lineHeight: {
         'custom-md': '115%',
@@ -69,8 +66,6 @@ module.exports = {
         'mobile-marketing-two': "url('/public/assets/images/webp/mobile-read-two.webp')",
         'mobile-marketing-three': "url('/public/assets/images/webp/mobile-read-three.webp')",
       }
-
-
     },
   },
   plugins: [],

@@ -5,7 +5,7 @@ const ReadMore = () => {
     const [showAll, setShowAll] = useState(false);
 
     return (
-        <div className="max-w-[1920px] mx-auto w-full sm:pt-[29px] pt-2 pb-[62px] max-sm:pb-[30px]">
+        <div className="max-w-[1920px] mx-auto w-full sm:pt-[29px] pt-2 pb-[52px] max-sm:pb-[30px]">
             <div className="sm:flex hidden max-xl:flex-wrap justify-between gap-6 max-xl:justify-center max-w-[1920px] 2xl:container mx-auto w-full">
                 {MARKETING_DATA.map((data, index) => (
                     <div
@@ -13,7 +13,7 @@ const ReadMore = () => {
                         className={`max-w-[440px] w-full p-[202px_29px_29px_29px] bg-cover bg-no-repeat bg-center ${data.bgImage}`}>
                         <div className="w-full max-w-[382px] h-[320px] bg-white p-[35px_24px_24px_24px] shadow-lg rounded-[25px]">
                             <div className="flex flex-col h-full">
-                                <p className="text-green text-custom-lg leading-5 font-semibold uppercase pb-[15px]">
+                                <p className="text-sky text-custom-lg leading-5 font-semibold uppercase pb-[15px]">
                                     {data.title}
                                 </p>
                                 <p className="text-black text-2xl leading-custom-5xl sm:text-3xl sm:leading-custom-6xl font-maisonLight font-light pb-3">{data.subtitle}</p>
@@ -45,7 +45,7 @@ const ReadMore = () => {
                             className={`w-full h-[240px] p-[23px_0_20px_113px] bg-cover bg-no-repeat bg-center ${data.bgImage}`}
                         >
                             <div className="w-full bg-white p-[29px_0_26px_25px] shadow-lg rounded-[25px] rounded-tr-none rounded-br-none">
-                                <p className="text-green text-custom-xs leading-5 font-semibold uppercase pb-[15px] max-sm:pb-[6px]">
+                                <p className="text-sky text-custom-xs leading-5 font-semibold uppercase pb-[15px] max-sm:pb-[6px]">
                                     {data.title}
                                 </p>
                                 <p className="text-black text-2xl max-w-[201px] leading-[26px] font-maisonLight font-light pb-[19px]">

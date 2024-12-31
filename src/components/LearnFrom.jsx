@@ -2,13 +2,13 @@ import React from "react";
 
 const LearnFrom = () => {
     return (
-        <div className="relative sm:pt-20 pt-8 pb-2">
+        <div className="relative sm:pt-20 pt-8 pb-[29px]">
             <img
                 src="./assets/images/webp/digital-bg.webp"
                 alt="Background"
                 className="absolute top-[40%] max-sm:hidden block"
             />
-            <div className="md:container max-w-[1322px]">
+            <div className="max-md:container max-w-[1322px] !mx-auto">
                 <h2 className="text-custom-7xl font-bold leading-none text-center uppercase font-sohne pb-[13px] max-md:text-6xl">
                     Learn from us.
                 </h2>
@@ -25,11 +25,11 @@ const LearnFrom = () => {
                 <img
                     src="./assets/images/webp/learn-image.webp"
                     alt="Section Background"
-                    className="relative md:block hidden"
+                    className="relative md:block hidden xl:max-w-[1322px]"
                 />
                 <img className="relative max-md:block hidden" src="./assets/images/webp/mobile-learn.webp" alt="learn" />
                
-                <div className="bg-white pt-[35px] pb-[31px] px-7 absolute bottom-[10%] left-[15%] max-md:left-[5%] rounded-[25px] max-lg:pt-[30px] max-lg:pb-[26px] max-lg:px-[26px] max-lg:max-w-[339px]">
+                <div className="bg-white pt-[35px] pb-[31px] px-7 absolute bottom-[7%] left-[7%] max-md:left-[7%] rounded-[25px] max-lg:pt-[30px] max-lg:pb-[26px] max-lg:px-[26px] max-lg:max-w-[339px] max-sm:max-w-[315px] max-sm:p-4">
                     <p className="text-custom-xs font-semibold leading-none text-left text-sky pb-4 mainson_Neue uppercase">
                         Guides
                     </p>
