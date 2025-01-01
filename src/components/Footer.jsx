@@ -47,22 +47,22 @@ function Footer() {
           </form>
         </div>
       </div>
-      <div className="container max-w-[1353px] pt-14 lg:pt-20 mx-auto flex flex-wrap justify-between items-center text-center sm:text-left">
+      <div className="container max-w-[1353px] pt-14 xl:pt-20 mx-auto flex flex-wrap justify-between items-center text-center sm:text-left">
         <div className="lg:w-1/3 md:w-1/2 w-full mb-6 sm:mb-0">
           <a href="#">
             <img src={logo.src} alt={logo.alt} className="mx-auto sm:mx-0 mb-[22px] max-w-[44.8px]" />
           </a>
-          <p className="text-custom-md leading-5 max-w-[315px] max-sm:text-center max-sm:mx-auto">
+          <p className="text-custom-sx leading-5 max-w-[315px] max-sm:text-center max-sm:mx-auto">
             {logo.description}
           </p>
-          <p className="text-custom-md leading-5 max-sm:text-center">
+          <p className="text-custom-sx leading-5 max-sm:text-center">
             {logo.copyright}
           </p>
         </div>
         <div className="lg:w-1/3 md:w-1/2 w-full flex gap-8 md:gap-14 max-sm:justify-center lg:justify-center max-md:mt-5">
           <div className="flex flex-col">
             <p className="font-medium text-xs leading-custom-md">{visit.title}</p>
-            <a target="_blank" href={visit.link} className="mt-2 text-custom-md leading-5">
+            <a target="_blank" href={visit.link} className="mt-2 text-custom-sx leading-5">
               {visit.address.split("\n").map((line, index) => (
                 <React.Fragment key={index}>
                   {line}
@@ -72,17 +72,17 @@ function Footer() {
             </a>
           </div>
           <div className="flex flex-col">
-            <p className="font-medium">{contact.title}</p>
+            <p className="font-medium text-custom-sx">{contact.title}</p>
             <a
               target="_blank"
               href={contact.email.link}
-              className="mt-2 text-custom-md leading-5 relative after:absolute hover:after:bg-green hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[1px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-500">
+              className="mt-2 text-custom-sx leading-5 relative after:absolute hover:after:bg-green hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[1px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-500">
               {contact.email.text}
             </a>
             <a
               target="_blank"
               href={contact.phone.link}
-              className="pt-[21px] text-custom-md leading-5 relative after:absolute hover:after:bg-green hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[1px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-500">
+              className="pt-[21px] text-custom-sx leading-5 relative after:absolute hover:after:bg-green hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[1px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-500">
               {contact.phone.text}
             </a>
           </div>
@@ -90,7 +90,7 @@ function Footer() {
         <div className="lg:w-1/3 md:w-1/2 w-full mt-6 lg:mt-0">
           <div className="flex max-sm:justify-center lg:justify-end space-x-4">
             {footerPolicies.map((policy, index) => (
-              <p key={index} className="text-custom-md">
+              <p key={index} className="text-custom-sx">
                 {policy}
               </p>
             ))}

@@ -13,7 +13,7 @@ const Ready = () => {
           <div className="flex ms-9 max-lg:mx-auto justify-center">
             <a
               href="#"
-              className="md:my-0 my-2 text-custom-xs font-semibold leading-[15px] text-center bg-yellow py-[31px] px-[27px] flex justify-center mainson_Neue gap-[10px] max-sm:w-full"
+              className="text-custom-xs font-semibold leading-[15px] text-center bg-yellow py-[31px] px-[27px] flex justify-center mainson_Neue gap-[10px] max-sm:w-full"
             >
               Book a Strategy Call
               <img src="./assets/images/svg/strategy-arrow.svg" alt="arrow" />

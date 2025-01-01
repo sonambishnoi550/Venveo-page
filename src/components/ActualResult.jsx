@@ -7,23 +7,23 @@ import { ACTUAL_RESULTS } from '../utils/helper';
 
 const ActualResult = () => {
     return (
-        <div className="bg-actual bg-no-repeat bg-center bg-cover text-white pt-[67px] lg:pt-[119px] pb-6 sm:pb-8 mt-10 relative">
-            <p className="max-sm:px-4 font-light text-3xl leading-[70px] text-white text-center font-maisonLight">
+        <div className="bg-actual bg-no-repeat bg-center bg-cover text-white pt-[67px] xl:pt-[119px] pb-6 sm:pb-8 mt-10 relative">
+            <p className="max-sm:px-4 font-light text-3xl leading-[70px] text-white text-center font-maisonLight max-sm:text-2xl">
                 Actual businesses.
             </p>
             <h2 className='font-bold font-sohne text-custom-7xl max-sm:text-6xl uppercase text-center leading-[70px]'>Actual results.</h2>
-            <p className="sm:mt-[46px] mt-[22px] max-sm:px-4 md:mb-[81px] mb-[39px] text-custom-lg leading-5 font-normal text-center font-maisonMono">
+            <p className="sm:pt-[46px] pt-[22px] max-sm:px-4 lg:pb-[81px] pb-[39px] text-custom-xs leading-5 font-normal text-center font-maisonMono">
                 Businesses trust Venveo to power growth.
             </p>
 
-            <div className="swiper-button-prev absolute left-0 top-[44%] max-sm:top-[32%] transform translate-y-[170%] sm:-translate-y-[50%] z-10">
+            <div className="swiper-button-prev absolute left-0 top-[44%] max-sm:top-[36%] transform translate-y-[170%] sm:-translate-y-[50%] z-10">
                 <button className="bg-white rounded-r-[25px] flex items-center justify-center">
-                    <img alt="prev-btn" className="sm:my-14 sm:mx-8 my-10 mx-6" src="/assets/images/svg/prev-button.svg" />
+                    <img alt="prev-btn" className="sm:my-14 sm:mx-8 my-9 me-5 ms-3" src="/assets/images/svg/prev-button.svg" />
                 </button>
             </div>
-            <div className="swiper-button-next absolute  right-0 top-[44%] max-sm:top-[32%] transform translate-y-[170%] sm:-translate-y-[50%] z-10">
+            <div className="swiper-button-next absolute  right-0 top-[44%] max-sm:top-[36%] transform translate-y-[170%] sm:-translate-y-[50%] z-10">
                 <button className="bg-white rounded-l-[25px] flex items-center justify-center">
-                    <img alt="next-btn" className="sm:my-14 sm:mx-8 my-10 mx-6" src="/assets/images/svg/next-button.svg" />
+                    <img alt="next-btn" className="sm:my-14 sm:mx-8 my-9 me-3 ms-5" src="/assets/images/svg/next-button.svg" />
                 </button>
             </div>
             <Swiper
@@ -53,7 +53,7 @@ const ActualResult = () => {
                                 alt="Thumbnail"
                                 className="!max-w-[640px] w-full mx-auto object-cover rounded transition-all duration-300 ease-in-out"
                             />
-                            <p className="mt-[30px] text-2xl leading-custom-5xl font-maisonLight sm:text-3xl sm:leading-custom-7xl font-light max-w-[251px] sm:max-w-[640px] md:mt-[74px] mx-auto">
+                            <p className="pt-6 text-2xl leading-custom-5xl font-maisonLight sm:text-3xl sm:leading-custom-7xl font-light max-w-[251px] sm:max-w-[640px] lg:pt-[74px] mx-auto">
                                 "{obj.description}"
                             </p>
                             <p className="mt-[23px] max-sm:px-4 text-[15px] leading-[20px] font-normal font-maisonMono">
@@ -65,7 +65,7 @@ const ActualResult = () => {
                             <img
                                 src={obj.companyLogo}
                                 alt="Company Logo"
-                                className="mx-auto mt-4 w-12"
+                                className="mx-auto mt-4 w-12 max-sm:mt-[6px]"
                             />
                         </div>
                     </SwiperSlide>

@@ -61,7 +61,7 @@ const ReadMore = () => {
                 </div>
                 <div className="justify-center mt-9 max-sm:flex hidden">
                     <button
-                        className="font-semibold text-custom-lg leading-custom-lg"
+                        className="font-semibold text-custom-sx leading-4"
                         onClick={() => setShowAll(!showAll)}
                     >
                         {showAll ? "Show More Resources  ▲" : "Show More Resources  ▼"}

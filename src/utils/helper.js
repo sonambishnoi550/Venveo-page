@@ -140,7 +140,7 @@ export const ACTUAL_RESULTS = [
         description: "Venveo helped us achieve growth beyond expectations with an excellent brand strategy.",
         name: "Sarah Johnson",
         title: "Marketing Director at BuildPro",
-        companyLogo: "./assets/images/webp/us.webp",
+        companyLogo: "./assets/images/svg/us.svg",
         videoThumbnail: "./assets/images/webp/men-two-image.webp",
     },
 
@@ -148,7 +148,7 @@ export const ACTUAL_RESULTS = [
         description: "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging, and cultural standpoint.",
         name: "Jon Vaughan",
         title: "Regional VP-SE at US LBM",
-        companyLogo: "./assets/images/webp/us.webp",
+        companyLogo: "./assets/images/svg/us.svg",
         videoThumbnail: "./assets/images/webp/men-one-image.webp",
     },
 
@@ -156,7 +156,7 @@ export const ACTUAL_RESULTS = [
         description: "Their innovative ideas and flawless execution drove our success to new heights.",
         name: "Michael Lee",
         title: "CEO at Constructive Works",
-        companyLogo: ".//assets/images/webp/us.webp",
+        companyLogo: "./assets/images/svg/us.svg",
         videoThumbnail: "./assets/images/webp/men-three-image.webp",
     },
 
@@ -164,7 +164,7 @@ export const ACTUAL_RESULTS = [
         description: "Their innovative ideas and flawless execution drove our success to new heights.",
         name: "Michael Lee",
         title: "CEO at Constructive Works",
-        companyLogo: "./assets/images/webp/us.webp",
+        companyLogo: "./assets/images/svg/us.svg",
         videoThumbnail: "./assets/images/webp/men-two-image.webp",
     },
 ];
@@ -289,14 +289,6 @@ export const FOOTER_LIST = {
             link: "/",
         },
     },
-
-    socialLinks: [
-        { name: "facebook", url: "https://facebook.com" },
-        { name: "instagram", url: "https://instagram.com" },
-        { name: "twitter", url: "https://twitter.com" },
-        { name: "linkedin", url: "https://linkedin.com" },
-        { name: "youtube", url: "https://youtube.com" },
-    ],
 
     footerPolicies: ["All Rights Reserved", "Privacy Policy"],
 };
