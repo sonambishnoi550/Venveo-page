@@ -14,7 +14,7 @@ function Footer() {
               }`}
           >
             <ul className="space-y-2">
-              <li className="font-medium text-xs leading-custom-md mb-4 uppercase">
+              <li className="font-medium text-xs leading-custom-md pb-[25px] uppercase">
                 {obj.title}
               </li>
               {obj.links.map((link, linkIndex) => (
@@ -61,8 +61,8 @@ function Footer() {
         </div>
         <div className="lg:w-1/3 md:w-1/2 w-full flex gap-8 md:gap-14 max-sm:justify-center lg:justify-center max-md:mt-5">
           <div className="flex flex-col">
-            <p className="font-medium text-xs leading-custom-md">{visit.title}</p>
-            <a target="_blank" href={visit.link} className="mt-2 text-custom-sx leading-5">
+            <p className="font-medium text-xs leading-custom-md  pb-[30px]">{visit.title}</p>
+            <a target="_blank" href={visit.link} className="text-custom-sx leading-5">
               {visit.address.split("\n").map((line, index) => (
                 <React.Fragment key={index}>
                   {line}
@@ -72,11 +72,11 @@ function Footer() {
             </a>
           </div>
           <div className="flex flex-col">
-            <p className="font-medium text-custom-sx">{contact.title}</p>
+            <p className="font-medium text-custom-sx pb-[30px]">{contact.title}</p>
             <a
               target="_blank"
               href={contact.email.link}
-              className="mt-2 text-custom-sx leading-5 relative after:absolute hover:after:bg-green hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[1px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-500">
+              className="text-custom-sx leading-5 relative after:absolute hover:after:bg-green hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[1px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-500">
               {contact.email.text}
             </a>
             <a
