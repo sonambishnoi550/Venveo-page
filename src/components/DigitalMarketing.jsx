@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { CARD_LIST } from "../utils/helper";
-const MarketingSection = () => {
+const DigitalMarketing = () => {
     const [showAll, setShowAll] = useState(false);
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
     useEffect(() => {
@@ -86,4 +86,4 @@ const MarketingSection = () => {
         </div>
     );
 };
-export default MarketingSection;
+export default DigitalMarketing;
