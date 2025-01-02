@@ -16,12 +16,12 @@ const ActualResult = () => {
                 Businesses trust Venveo to power growth.
             </p>
 
-            <div className="swiper-button-prev absolute left-0 top-[44%] max-sm:top-[36%] transform translate-y-[170%] sm:-translate-y-[50%] z-10">
+            <div className="swiper-button-prev absolute left-0 top-[44%] 2xl:left-[40%] max-sm:top-[36%] transform translate-y-[170%] sm:-translate-y-[50%] z-10">
                 <button className="bg-white rounded-r-[25px] flex items-center justify-center">
                     <img alt="prev-btn" className="sm:my-14 sm:mx-8 my-9 me-5 ms-3" src="/assets/images/svg/prev-button.svg" />
                 </button>
             </div>
-            <div className="swiper-button-next absolute  right-0 top-[44%] max-sm:top-[36%] transform translate-y-[170%] sm:-translate-y-[50%] z-10">
+            <div className="swiper-button-next absolute  right-0 top-[44%] max-sm:top-[36%] 2xl:right-[40%] transform translate-y-[170%] sm:-translate-y-[50%] z-10">
                 <button className="bg-white rounded-l-[25px] flex items-center justify-center">
                     <img alt="next-btn" className="sm:my-14 sm:mx-8 my-9 me-3 ms-5" src="/assets/images/svg/next-button.svg" />
                 </button>

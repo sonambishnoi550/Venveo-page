@@ -4,8 +4,6 @@ import { CARD_LIST } from "../utils/helper";
 const MarketingSection = () => {
     const [showAll, setShowAll] = useState(false);
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-
-    // Update `isMobile` state when the window resizes
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768);
@@ -16,11 +14,9 @@ const MarketingSection = () => {
         };
     }, []);
 
-    // Determine the number of cards to show
     const cardsToShow = isMobile && !showAll ? CARD_LIST.slice(0, 1) : CARD_LIST;
-
     return (
-        <div className="xl:pt-[132px] pt-24 relative min-h-screen max-sm:pt-[65px]">
+        <div className="xl:pt-[132px] pt-24 relative max-xl:min-h-screen max-sm:pt-[65px]">
             <img
                 src="./assets/images/webp/digital-bg.webp"
                 alt="Background"
@@ -40,7 +36,7 @@ const MarketingSection = () => {
                 <div className="lg:flex flex-wrap">
                     {cardsToShow.map((card) => (
                         <div key={card.id} className="lg:w-6/12 w-full pb-14 max-lg:pb-8 flex justify-center">
-                            <div className="flex border-2 max-w-[503px] max-xl:max-w-[447px] max-sm:p-[30px] border-sky rounded-[25px] pt-[65px] pl-[30px] pr-[60px] pb-[54px] max-sm:pt-[34px] max-sm:pb-[36px] max-sm:px-[31px] relative z-10 bg-white md:gap-6">
+                            <div className="flex border-2 max-w-[503px] max-xl:max-w-[447px] max-sm:p-[30px] border-sky rounded-[25px] pt-[65px] pl-[30px] pr-[60px] pb-[54px] max-sm:pt-[34px] max-sm:pb-[36px] max-lg:px-[31px] relative z-10 bg-white md:gap-6">
                                 <img src={card.img} alt={card.alt} className="h-[53px] w-[53px] md:block hidden pointer-events-none" />
                                 <div className="flex-col">
                                     <img src={card.img} alt={card.alt} className="max-sm:size-[38px] max-md:block hidden mb-2 pointer-events-none" />
