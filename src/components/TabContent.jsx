@@ -79,7 +79,7 @@ const TabContent = () => {
     const [activeTab, setActiveTab] = useState("tab1");
 
     return (
-        <section className="py-14 max-sm:pt-[64px] max-sm:pb-6 flex justify-center">
+        <section className="pb-14 pt-[113px] max-sm:pt-[64px] max-sm:pb-6 flex justify-center">
             <div className="container max-w-[1280px] mx-auto">
                 <h2 className="text-custom-7xl font-bold text-center uppercase font-sohne leading-[70px] max-sm:text-6xl">The Growth Partner</h2>
                 <p className="text-3xl font-light text-center pb-[43px] max-sm:pb-[19px] max-sm:text-2xl font-maisonLight">you’ve been looking for.</p>

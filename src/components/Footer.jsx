@@ -16,9 +16,9 @@ function Footer() {
                 {obj.title}
               </li>
               {obj.links.map((link, linkIndex) => (
-                <li key={linkIndex} className="font-maisonLight text-custom-lg text-nowrap leading-custom-6xl">
+                <li key={linkIndex} className="font-maisonLight text-custom-xs text-nowrap leading-custom-6xl">
                   <a
-                    className="relative after:absolute hover:after:bg-green hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[1px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-500"
+                    className="relative"
                     href={link.href}
                   >
                     {link.text}
@@ -28,18 +28,18 @@ function Footer() {
             </ul>
           </div>
         ))}
-        <div className="text-center md:text-left xl:-ml-[195px]">
+        <div className="text-center md:text-left xl:-ml-[195px] cursor-pointer">
           <p className="mb-4 text-3xl font-maisonLight">Get weekly data — and insights.</p>
           <form className="border-2 border-white mt-[30px] text-white rounded-[50px] text-center py-4 sm:py-5 px-5 xl:px-7 flex w-full xl:max-w-[448px] sm:mx-auto justify-between">
             <input
               id="email"
               type="text"
               placeholder="Enter Your Website"
-              className="bg-transparent outline-none w-full placeholder:text-white text-white text-custom-lg font-normal leading-5 font-MaisonNeue"
+              className="bg-transparent outline-none w-full placeholder:text-white text-white text-custom-xs font-normal leading-5 font-MaisonNeue"
               aria-label="Enter your website"
               required />
             <button
-              className="text-white text-custom-xs text-nowrap leading-5 font-semibold text-center font-maisonDemi hover:text-green transition-all duration-500">
+              className="text-yellow text-custom-xs text-nowrap leading-5 font-semibold text-center font-maisonDemi transition-all duration-500">
               Get Started
             </button>
           </form>
@@ -74,19 +74,19 @@ function Footer() {
             <a
               target="_blank"
               href={contact.email.link}
-              className="text-custom-sx leading-5 relative after:absolute hover:after:bg-green hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[1px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-500">
+              className="text-custom-sx leading-5 relative">
               {contact.email.text}
             </a>
             <a
               target="_blank"
               href={contact.phone.link}
-              className="pt-[21px] text-custom-sx leading-5 relative after:absolute hover:after:bg-green hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[1px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-500">
+              className="pt-[21px] text-custom-sx leading-5 relative">
               {contact.phone.text}
             </a>
           </div>
         </div>
         <div className="lg:w-1/3 md:w-1/2 w-full mt-6 lg:mt-0">
-          <div className="flex max-sm:justify-center lg:justify-end space-x-4">
+          <div className="flex max-sm:justify-center lg:justify-end space-x-10">
             {footerPolicies.map((policy, index) => (
               <p key={index} className="text-custom-sx">
                 {policy}

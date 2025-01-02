@@ -7,7 +7,8 @@ import { ACTUAL_RESULTS } from '../utils/helper';
 const ActualResult = () => {
     return (
         <div className="bg-actual bg-no-repeat bg-center bg-cover text-white pt-[67px] xl:pt-[119px] pb-6 sm:pb-8 mt-10 relative">
-            <p className="max-sm:px-4 font-light text-3xl leading-[70px] text-white text-center font-maisonLight max-sm:text-2xl">
+            <img className='absolute bottom-[-2%] w-full' src="./assets/images/svg/dark-green-line.svg" alt="line" />
+            <p className="max-sm:px-4 font-light text-3xl leading-[30px] text-white text-center font-maisonLight max-sm:text-2xl">
                 Actual businesses.
             </p>
             <h2 className='font-bold font-sohne text-custom-7xl max-sm:text-6xl uppercase text-center leading-[70px]'>Actual results.</h2>

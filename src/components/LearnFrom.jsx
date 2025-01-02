@@ -17,7 +17,7 @@ const LearnFrom = () => {
                 </p>
                 <a
                     href="#"
-                    className="text-xmd font-semibold leading-none text-center flex justify-center xl:pb-20 pb-10 mainson_Neue"
+                    className="text-xmd font-semibold leading-none text-center flex justify-center xl:pb-[52px] pb-10 mainson_Neue"
                 >
                     See All
                    <img className="ml-2" src="./assets/images/svg/read-arrow.svg" alt="arrow" />
@@ -30,7 +30,7 @@ const LearnFrom = () => {
                     />
                     <img className="relative max-md:block hidden" src="./assets/images/webp/mobile-learn.webp" alt="learn" />
 
-                    <div className="bg-white pt-[35px] pb-[31px] px-7 absolute bottom-[7%] left-[7%] max-md:left-[7%] rounded-[25px] max-lg:pt-[30px] max-lg:pb-[26px] max-lg:px-[26px] max-lg:max-w-[339px] max-sm:max-w-[315px] max-sm:p-4">
+                    <div className="bg-white pt-[35px] pb-[31px] px-7 absolute bottom-[4%] left-[2%] max-md:left-[7%] rounded-[25px] max-lg:pt-[30px] max-lg:pb-[26px] max-lg:px-[26px] max-lg:max-w-[339px] max-sm:max-w-[315px] max-sm:p-4">
                         <p className="text-custom-xs font-semibold leading-none text-left text-sky pb-4 max-sm:pb-[6px] mainson_Neue uppercase">
                             Guides
                         </p>

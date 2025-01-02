@@ -33,7 +33,7 @@ const Client = () => {
                                         <path d="M10 5.00343L0 0V10L10 5.00343Z" className="fill-current" /> </svg>
                                 </a>
                             </div>
-                            <div className="flex gap-9 pt-3 pb-8 pl-4">
+                            <div className="flex gap-14 pt-3 pb-8 pl-4">
                                 {card.stats.map((stat, index) => (
                                     <div key={index}>
                                         <p className="text-black leading-10 text-custom-4xl max-sm:text-custom-3xl font-bold font-sohne"> {stat.value}
