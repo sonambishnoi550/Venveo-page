@@ -8,7 +8,7 @@ const Analize = () => {
                 <img
                     src="/assets/images/svg/analize.svg"
                     alt="img"
-                    className="absolute xl:left-[33rem] xl:top-[3rem]  lg:left-[31rem] max-lg:hidden lg:top-[4rem] top-[11rem] sm:left-[30rem] left-[4rem] sm:top-[8rem] pointer-events-none"
+                    className="absolute xl:left-[33rem] xl:top-[3rem] lg:left-[31rem] max-lg:hidden lg:top-[4rem] top-[11rem] sm:left-[30rem] left-[4rem] sm:top-[8rem] pointer-events-none"
                 />
                 <div className="md:flex justify-between max-lg:flex-col">
                     <div className="flex-col">
