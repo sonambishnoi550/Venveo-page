@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from '../components/Header'
-
 const Hero = () => {
     return (
         <div style={{ backgroundImage: `url(./assets/images/webp/hero-bg.webp)` }} className='bg-cover bg-no-repeat h-[869px] lg:bg-[100%_100%] max-sm:h-[539px] mx-w-[1440px] max-lg:pb-16 max-sm:pb-10'>
@@ -31,5 +30,4 @@ const Hero = () => {
         </div>
     )
 }
-
 export default Hero

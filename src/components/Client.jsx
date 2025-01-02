@@ -1,6 +1,5 @@
 import React from 'react';
 import { CLIENT_CARD } from '../utils/helper';
-
 const Client = () => {
     return (
         <div className="pt-1">
@@ -50,5 +49,4 @@ const Client = () => {
         </div>
     );
 };
-
 export default Client;

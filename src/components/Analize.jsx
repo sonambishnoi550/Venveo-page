@@ -37,5 +37,4 @@ const Analize = () => {
         </div>
     );
 };
-
 export default Analize;

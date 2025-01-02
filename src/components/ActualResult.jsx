@@ -4,7 +4,6 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { ACTUAL_RESULTS } from '../utils/helper';
-
 const ActualResult = () => {
     return (
         <div className="bg-actual bg-no-repeat bg-center bg-cover text-white pt-[67px] xl:pt-[119px] pb-6 sm:pb-8 mt-10 relative">
@@ -74,5 +73,4 @@ const ActualResult = () => {
         </div>
     );
 };
-
 export default ActualResult;

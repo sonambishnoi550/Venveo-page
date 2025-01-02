@@ -3,7 +3,6 @@ import { MARKETING_DATA, MARKETING_MOBILE_DATA } from '../utils/helper'
 
 const ReadMore = () => {
     const [showAll, setShowAll] = useState(false);
-
     return (
         <div className="max-w-[1920px] mx-auto w-full sm:pt-[29px] pt-2 pb-[52px] max-sm:pb-[30px]">
             <div className="sm:flex hidden max-xl:flex-wrap justify-between gap-6 max-xl:justify-center max-w-[1920px] 2xl:container mx-auto w-full">
@@ -71,5 +70,4 @@ const ReadMore = () => {
         </div>
     )
 }
-
 export default ReadMore

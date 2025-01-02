@@ -75,7 +75,6 @@ const Tab = ({ activeTab }) => {
             return null;
     }
 };
-
 const TabsComponent = () => {
     const [activeTab, setActiveTab] = useState("tab1");
 
@@ -105,5 +104,4 @@ const TabsComponent = () => {
         </section>
     );
 };
-
 export default TabsComponent;

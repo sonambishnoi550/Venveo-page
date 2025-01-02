@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { DROPDOWN_LIST } from "../utils/helper";
-
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [openDropdown, setOpenDropdown] = useState(null);
@@ -8,7 +7,6 @@ const Header = () => {
     const toggleDropdown = (index) => {
         setOpenDropdown(openDropdown === index ? null : index);
     };
-
     return (
         <header>
             <nav className="h-[80px] max-w-[1440px] mx-auto">
@@ -62,5 +60,4 @@ const Header = () => {
         </header>
     );
 };
-
 export default Header;

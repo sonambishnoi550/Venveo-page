@@ -1,9 +1,7 @@
 import React from "react";
 import { FOOTER_DATA, FOOTER_LIST } from "../utils/helper";
-
 function Footer() {
   const { logo, visit, contact, footerPolicies } = FOOTER_LIST;
-
   return (
     <footer className="bg-green text-white pt-[57px] lg:pt-[90px] pb-[86px] lg:pb-[104px]">
       <div className="container max-w-[1353px] mx-auto grid grid-cols-1 xl:grid-cols-5 lg:grid-cols-3 md:grid-cols-2 max-sm:gap-4">
@@ -117,5 +115,4 @@ function Footer() {
     </footer>
   );
 }
-
 export default Footer;

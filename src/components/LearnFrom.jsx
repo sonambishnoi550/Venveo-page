@@ -45,11 +45,9 @@ const LearnFrom = () => {
                             <img className="ml-2" src="./assets/images/svg/read-arrow.svg" alt="arrow" />
                         </a>
                     </div>
-                </div>
-               
+                </div>   
             </div>
         </div>
     );
 };
-
 export default LearnFrom;

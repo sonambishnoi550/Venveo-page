@@ -1,9 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 @font-face {
     font-family: "Sohne Schmal";
     src:url('../public/assets/fonts/TestSöhneSchmal-Dreiviertelfett.woff2') format("truetype");
@@ -18,22 +16,18 @@
     font-style: normal;
     font-display: swap;
   }
-
  @font-face {
      font-family: "MaisonNeueDemi";
      src: url('../public/assets/fonts/MaisonNeue-Demi.ttf') format("truetype");
  }
-
  @font-face {
      font-family: "MaisonNeueMedium";
      src: url('../public/assets/fonts/MaisonNeue-Medium.ttf') format("truetype");
  }
-
  @font-face {
      font-family: "MaisonNeueBook";
      src: url('../public/assets/fonts/Maison-Neue-Book.ttf') format("truetype");
  }
-
  @font-face {
      font-family: "MaisonNeueMono";
      src: url('../public/assets/fonts/Maison-Neue-Mono.ttf') format("truetype");
@@ -43,9 +37,6 @@
      font-family: "MaisonNeueLight";
      src: url('../public/assets/fonts/MaisonNeue-Light.ttf') format("truetype");
  }
-/* .sohne {
-    font-family: 'Söhne Schmal', sans-serif;
-} */
 body {
     font-family: 'Maison Neue', sans-serif;
 }

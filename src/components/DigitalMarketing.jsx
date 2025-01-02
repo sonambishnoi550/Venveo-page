@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { CARD_LIST } from "../utils/helper";
-
 const MarketingSection = () => {
     const [showAll, setShowAll] = useState(false);
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -13,7 +12,6 @@ const MarketingSection = () => {
             window.removeEventListener("resize", handleResize);
         };
     }, []);
-
     const cardsToShow = isMobile && !showAll ? CARD_LIST.slice(0, 1) : CARD_LIST;
     return (
         <div className="xl:pt-[132px] pt-24 relative max-xl:min-h-screen max-sm:pt-[65px]">
@@ -88,5 +86,4 @@ const MarketingSection = () => {
         </div>
     );
 };
-
 export default MarketingSection;
